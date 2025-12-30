@@ -1,0 +1,236 @@
+[
+  {
+    "start": 0,
+    "end": 60.0,
+    "duration": 60.0,
+    "score": 5.57,
+    "components": {
+      "audio": 0.64,
+      "semantic": 0.22,
+      "visual": 0.66,
+      "entropy": 3.09
+    },
+    "validation_reason": "Ent:2.83->0.71, ZCR:0.09->0.59 [Merged]"
+  },
+  {
+    "start": 43.62,
+    "end": 103.54,
+    "duration": 59.92000000000001,
+    "score": 4.36,
+    "components": {
+      "audio": 0.48,
+      "semantic": 0.17,
+      "visual": 0.51,
+      "entropy": 3.0
+    },
+    "validation_reason": "Ent:2.94->0.74, ZCR:0.08->0.52 [Merged]"
+  },
+  {
+    "start": 89.84,
+    "end": 148.96,
+    "duration": 59.120000000000005,
+    "score": 4.59,
+    "components": {
+      "audio": 0.48,
+      "semantic": 0.2,
+      "visual": 0.56,
+      "entropy": 3.03
+    },
+    "validation_reason": "Ent:2.94->0.74, ZCR:0.08->0.54 [Merged]"
+  },
+  {
+    "start": 133.66,
+    "end": 191.34,
+    "duration": 57.68000000000001,
+    "score": 4.97,
+    "components": {
+      "audio": 0.45,
+      "semantic": 0.31,
+      "visual": 0.6,
+      "entropy": 2.99
+    },
+    "validation_reason": "Ent:2.99->0.75, ZCR:0.09->0.57 [Merged]"
+  },
+  {
+    "start": 184.5,
+    "end": 227.64,
+    "duration": 43.139999999999986,
+    "score": 4.33,
+    "components": {
+      "audio": 0.45,
+      "semantic": 0.16,
+      "visual": 0.53,
+      "entropy": 3.0
+    },
+    "validation_reason": "Ent:3.00->0.75, ZCR:0.10->0.64 [Merged]"
+  },
+  {
+    "start": 212.62,
+    "end": 269.0,
+    "duration": 56.379999999999995,
+    "score": 4.35,
+    "components": {
+      "audio": 0.43,
+      "semantic": 0.2,
+      "visual": 0.52,
+      "entropy": 3.02
+    },
+    "validation_reason": "Ent:3.02->0.75, ZCR:0.10->0.67 [Merged]"
+  },
+  {
+    "start": 266.88,
+    "end": 326.0,
+    "duration": 59.120000000000005,
+    "score": 5.75,
+    "components": {
+      "audio": 0.51,
+      "semantic": 0.5,
+      "visual": 0.6,
+      "entropy": 3.02
+    },
+    "validation_reason": "Ent:3.02->0.75, ZCR:0.10->0.69 [Merged]"
+  },
+  {
+    "start": 305.82,
+    "end": 365.5,
+    "duration": 59.68000000000001,
+    "score": 4.77,
+    "components": {
+      "audio": 0.42,
+      "semantic": 0.3,
+      "visual": 0.57,
+      "entropy": 3.04
+    },
+    "validation_reason": "Ent:3.02->0.75, ZCR:0.10->0.69 [Merged]"
+  },
+  {
+    "start": 343.28,
+    "end": 395.75,
+    "duration": 52.47000000000003,
+    "score": 4.78,
+    "components": {
+      "audio": 0.47,
+      "semantic": 0.31,
+      "visual": 0.59,
+      "entropy": 3.03
+    },
+    "validation_reason": "Ent:3.03->0.76, ZCR:0.10->0.66 [Merged]"
+  },
+  {
+    "start": 380.71,
+    "end": 440.0,
+    "duration": 59.29000000000002,
+    "score": 4.69,
+    "components": {
+      "audio": 0.45,
+      "semantic": 0.31,
+      "visual": 0.52,
+      "entropy": 2.96
+    },
+    "validation_reason": "Ent:2.96->0.74, ZCR:0.09->0.62 [Merged]"
+  },
+  {
+    "start": 425.71,
+    "end": 484.27,
+    "duration": 58.56,
+    "score": 4.74,
+    "components": {
+      "audio": 0.53,
+      "semantic": 0.21,
+      "visual": 0.55,
+      "entropy": 2.99
+    },
+    "validation_reason": "Ent:2.92->0.73, ZCR:0.09->0.61 [Merged]"
+  },
+  {
+    "start": 467.99,
+    "end": 514.25,
+    "duration": 46.25999999999999,
+    "score": 4.39,
+    "components": {
+      "audio": 0.41,
+      "semantic": 0.18,
+      "visual": 0.56,
+      "entropy": 2.99
+    },
+    "validation_reason": "Ent:2.99->0.75, ZCR:0.10->0.69 [Merged]"
+  },
+  {
+    "start": 517.57,
+    "end": 571.59,
+    "duration": 54.01999999999998,
+    "score": 4.48,
+    "components": {
+      "audio": 0.4,
+      "semantic": 0.29,
+      "visual": 0.53,
+      "entropy": 2.93
+    },
+    "validation_reason": "Ent:2.93->0.73, ZCR:0.08->0.54 [Merged]"
+  },
+  {
+    "start": 557.39,
+    "end": 615.5,
+    "duration": 58.110000000000014,
+    "score": 5.1,
+    "components": {
+      "audio": 0.5,
+      "semantic": 0.29,
+      "visual": 0.61,
+      "entropy": 3.04
+    },
+    "validation_reason": "Ent:2.90->0.72, ZCR:0.09->0.59 [Merged]"
+  },
+  {
+    "start": 598.5,
+    "end": 657.41,
+    "duration": 58.90999999999997,
+    "score": 4.84,
+    "components": {
+      "audio": 0.53,
+      "semantic": 0.3,
+      "visual": 0.64,
+      "entropy": 3.03
+    },
+    "validation_reason": "Ent:2.99->0.75, ZCR:0.11->0.70 [Merged]"
+  },
+  {
+    "start": 642.47,
+    "end": 681.37,
+    "duration": 38.89999999999998,
+    "score": 4.69,
+    "components": {
+      "audio": 0.35,
+      "semantic": 0.28,
+      "visual": 0.65,
+      "entropy": 3.06
+    },
+    "validation_reason": "Ent:2.86->0.72, ZCR:0.07->0.46 [Merged]"
+  },
+  {
+    "start": 670.79,
+    "end": 730.57,
+    "duration": 59.780000000000086,
+    "score": 2.97,
+    "components": {
+      "audio": 0.27,
+      "semantic": 0.18,
+      "visual": 0.46,
+      "entropy": 3.03
+    },
+    "validation_reason": "Ent:3.03->0.76, ZCR:0.08->0.50 [Merged]"
+  },
+  {
+    "start": 713.31,
+    "end": 736.99,
+    "duration": 23.680000000000064,
+    "score": 2.93,
+    "components": {
+      "audio": 0.25,
+      "semantic": 0.19,
+      "visual": 0.47,
+      "entropy": 3.02
+    },
+    "validation_reason": "Ent:3.01->0.75, ZCR:0.08->0.52 [Merged]"
+  }
+]

@@ -1,0 +1,9 @@
+video_ingestion.py
+// i have kept the fps to 1 for better storage , instead of quality
+audio_transcription.py
+audio_analysis
+Audio_validator(not needed already in cli_selector)
+text_analysis
+visual_analysis
+clip_selector
+video_renderer

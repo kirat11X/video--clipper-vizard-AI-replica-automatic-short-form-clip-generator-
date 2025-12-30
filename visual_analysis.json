@@ -1,0 +1,5303 @@
+{
+  "time_series": [
+    {
+      "time": 1.0,
+      "face_score": 0.6,
+      "motion_score": 0.0,
+      "visual_score": 0.36
+    },
+    {
+      "time": 2.0,
+      "face_score": 0.6,
+      "motion_score": 0.217,
+      "visual_score": 0.447
+    },
+    {
+      "time": 3.0,
+      "face_score": 0.6,
+      "motion_score": 0.126,
+      "visual_score": 0.41
+    },
+    {
+      "time": 4.0,
+      "face_score": 0.6,
+      "motion_score": 0.038,
+      "visual_score": 0.375
+    },
+    {
+      "time": 5.0,
+      "face_score": 0.6,
+      "motion_score": 0.052,
+      "visual_score": 0.381
+    },
+    {
+      "time": 6.0,
+      "face_score": 0.6,
+      "motion_score": 0.53,
+      "visual_score": 0.572
+    },
+    {
+      "time": 7.0,
+      "face_score": 0.6,
+      "motion_score": 0.654,
+      "visual_score": 0.621
+    },
+    {
+      "time": 8.0,
+      "face_score": 0.6,
+      "motion_score": 0.481,
+      "visual_score": 0.552
+    },
+    {
+      "time": 9.0,
+      "face_score": 0.6,
+      "motion_score": 0.486,
+      "visual_score": 0.554
+    },
+    {
+      "time": 10.0,
+      "face_score": 0.6,
+      "motion_score": 0.613,
+      "visual_score": 0.605
+    },
+    {
+      "time": 11.0,
+      "face_score": 0.6,
+      "motion_score": 0.592,
+      "visual_score": 0.597
+    },
+    {
+      "time": 12.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 13.0,
+      "face_score": 0.6,
+      "motion_score": 0.789,
+      "visual_score": 0.675
+    },
+    {
+      "time": 14.0,
+      "face_score": 0.6,
+      "motion_score": 0.148,
+      "visual_score": 0.419
+    },
+    {
+      "time": 15.0,
+      "face_score": 0.6,
+      "motion_score": 0.921,
+      "visual_score": 0.728
+    },
+    {
+      "time": 16.0,
+      "face_score": 0.6,
+      "motion_score": 0.54,
+      "visual_score": 0.576
+    },
+    {
+      "time": 17.0,
+      "face_score": 0.6,
+      "motion_score": 0.193,
+      "visual_score": 0.437
+    },
+    {
+      "time": 18.0,
+      "face_score": 0.6,
+      "motion_score": 0.147,
+      "visual_score": 0.419
+    },
+    {
+      "time": 19.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 20.0,
+      "face_score": 0.6,
+      "motion_score": 0.948,
+      "visual_score": 0.739
+    },
+    {
+      "time": 21.0,
+      "face_score": 0.6,
+      "motion_score": 0.818,
+      "visual_score": 0.687
+    },
+    {
+      "time": 22.0,
+      "face_score": 0.6,
+      "motion_score": 0.575,
+      "visual_score": 0.59
+    },
+    {
+      "time": 23.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 24.0,
+      "face_score": 0.0,
+      "motion_score": 1.0,
+      "visual_score": 0.24
+    },
+    {
+      "time": 25.0,
+      "face_score": 0.6,
+      "motion_score": 0.893,
+      "visual_score": 0.717
+    },
+    {
+      "time": 26.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 27.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 28.0,
+      "face_score": 0.6,
+      "motion_score": 0.185,
+      "visual_score": 0.434
+    },
+    {
+      "time": 29.0,
+      "face_score": 0.6,
+      "motion_score": 0.225,
+      "visual_score": 0.45
+    },
+    {
+      "time": 30.0,
+      "face_score": 0.6,
+      "motion_score": 0.124,
+      "visual_score": 0.41
+    },
+    {
+      "time": 31.0,
+      "face_score": 0.6,
+      "motion_score": 0.126,
+      "visual_score": 0.41
+    },
+    {
+      "time": 32.0,
+      "face_score": 0.6,
+      "motion_score": 0.122,
+      "visual_score": 0.409
+    },
+    {
+      "time": 33.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 34.0,
+      "face_score": 0.6,
+      "motion_score": 0.881,
+      "visual_score": 0.713
+    },
+    {
+      "time": 35.0,
+      "face_score": 0.6,
+      "motion_score": 0.747,
+      "visual_score": 0.659
+    },
+    {
+      "time": 36.0,
+      "face_score": 0.6,
+      "motion_score": 0.945,
+      "visual_score": 0.738
+    },
+    {
+      "time": 37.0,
+      "face_score": 0.6,
+      "motion_score": 0.775,
+      "visual_score": 0.67
+    },
+    {
+      "time": 38.0,
+      "face_score": 0.6,
+      "motion_score": 0.832,
+      "visual_score": 0.693
+    },
+    {
+      "time": 39.0,
+      "face_score": 0.6,
+      "motion_score": 0.405,
+      "visual_score": 0.522
+    },
+    {
+      "time": 40.0,
+      "face_score": 0.6,
+      "motion_score": 0.224,
+      "visual_score": 0.45
+    },
+    {
+      "time": 41.0,
+      "face_score": 0.6,
+      "motion_score": 0.501,
+      "visual_score": 0.56
+    },
+    {
+      "time": 42.0,
+      "face_score": 0.6,
+      "motion_score": 0.84,
+      "visual_score": 0.696
+    },
+    {
+      "time": 43.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 44.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 45.0,
+      "face_score": 0.6,
+      "motion_score": 0.904,
+      "visual_score": 0.722
+    },
+    {
+      "time": 46.0,
+      "face_score": 0.6,
+      "motion_score": 0.903,
+      "visual_score": 0.721
+    },
+    {
+      "time": 47.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 48.0,
+      "face_score": 0.6,
+      "motion_score": 0.192,
+      "visual_score": 0.437
+    },
+    {
+      "time": 49.0,
+      "face_score": 0.6,
+      "motion_score": 0.31,
+      "visual_score": 0.484
+    },
+    {
+      "time": 50.0,
+      "face_score": 0.6,
+      "motion_score": 0.102,
+      "visual_score": 0.401
+    },
+    {
+      "time": 51.0,
+      "face_score": 0.6,
+      "motion_score": 0.17,
+      "visual_score": 0.428
+    },
+    {
+      "time": 52.0,
+      "face_score": 0.6,
+      "motion_score": 0.174,
+      "visual_score": 0.43
+    },
+    {
+      "time": 53.0,
+      "face_score": 0.6,
+      "motion_score": 0.103,
+      "visual_score": 0.401
+    },
+    {
+      "time": 54.0,
+      "face_score": 0.6,
+      "motion_score": 0.108,
+      "visual_score": 0.403
+    },
+    {
+      "time": 55.0,
+      "face_score": 0.6,
+      "motion_score": 0.054,
+      "visual_score": 0.382
+    },
+    {
+      "time": 56.0,
+      "face_score": 0.6,
+      "motion_score": 0.067,
+      "visual_score": 0.387
+    },
+    {
+      "time": 57.0,
+      "face_score": 0.6,
+      "motion_score": 0.108,
+      "visual_score": 0.403
+    },
+    {
+      "time": 58.0,
+      "face_score": 0.6,
+      "motion_score": 0.118,
+      "visual_score": 0.407
+    },
+    {
+      "time": 59.0,
+      "face_score": 0.6,
+      "motion_score": 0.218,
+      "visual_score": 0.447
+    },
+    {
+      "time": 60.0,
+      "face_score": 0.6,
+      "motion_score": 0.171,
+      "visual_score": 0.429
+    },
+    {
+      "time": 61.0,
+      "face_score": 0.6,
+      "motion_score": 0.1,
+      "visual_score": 0.4
+    },
+    {
+      "time": 62.0,
+      "face_score": 0.6,
+      "motion_score": 0.053,
+      "visual_score": 0.381
+    },
+    {
+      "time": 63.0,
+      "face_score": 0.6,
+      "motion_score": 0.151,
+      "visual_score": 0.421
+    },
+    {
+      "time": 64.0,
+      "face_score": 0.6,
+      "motion_score": 0.166,
+      "visual_score": 0.426
+    },
+    {
+      "time": 65.0,
+      "face_score": 0.6,
+      "motion_score": 0.152,
+      "visual_score": 0.421
+    },
+    {
+      "time": 66.0,
+      "face_score": 0.6,
+      "motion_score": 0.104,
+      "visual_score": 0.402
+    },
+    {
+      "time": 67.0,
+      "face_score": 0.6,
+      "motion_score": 0.1,
+      "visual_score": 0.4
+    },
+    {
+      "time": 68.0,
+      "face_score": 0.6,
+      "motion_score": 0.037,
+      "visual_score": 0.375
+    },
+    {
+      "time": 69.0,
+      "face_score": 0.6,
+      "motion_score": 0.045,
+      "visual_score": 0.378
+    },
+    {
+      "time": 70.0,
+      "face_score": 0.6,
+      "motion_score": 0.052,
+      "visual_score": 0.381
+    },
+    {
+      "time": 71.0,
+      "face_score": 0.6,
+      "motion_score": 0.038,
+      "visual_score": 0.375
+    },
+    {
+      "time": 72.0,
+      "face_score": 0.6,
+      "motion_score": 0.056,
+      "visual_score": 0.382
+    },
+    {
+      "time": 73.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 74.0,
+      "face_score": 0.6,
+      "motion_score": 0.413,
+      "visual_score": 0.525
+    },
+    {
+      "time": 75.0,
+      "face_score": 0.6,
+      "motion_score": 0.617,
+      "visual_score": 0.607
+    },
+    {
+      "time": 76.0,
+      "face_score": 0.6,
+      "motion_score": 0.653,
+      "visual_score": 0.621
+    },
+    {
+      "time": 77.0,
+      "face_score": 0.6,
+      "motion_score": 0.629,
+      "visual_score": 0.612
+    },
+    {
+      "time": 78.0,
+      "face_score": 0.6,
+      "motion_score": 0.625,
+      "visual_score": 0.61
+    },
+    {
+      "time": 79.0,
+      "face_score": 0.6,
+      "motion_score": 0.659,
+      "visual_score": 0.624
+    },
+    {
+      "time": 80.0,
+      "face_score": 0.6,
+      "motion_score": 0.62,
+      "visual_score": 0.608
+    },
+    {
+      "time": 81.0,
+      "face_score": 0.6,
+      "motion_score": 0.34,
+      "visual_score": 0.496
+    },
+    {
+      "time": 82.0,
+      "face_score": 0.6,
+      "motion_score": 0.1,
+      "visual_score": 0.4
+    },
+    {
+      "time": 83.0,
+      "face_score": 0.6,
+      "motion_score": 0.081,
+      "visual_score": 0.392
+    },
+    {
+      "time": 84.0,
+      "face_score": 0.0,
+      "motion_score": 0.377,
+      "visual_score": 0.09
+    },
+    {
+      "time": 85.0,
+      "face_score": 0.6,
+      "motion_score": 0.47,
+      "visual_score": 0.548
+    },
+    {
+      "time": 86.0,
+      "face_score": 0.6,
+      "motion_score": 0.39,
+      "visual_score": 0.516
+    },
+    {
+      "time": 87.0,
+      "face_score": 0.6,
+      "motion_score": 0.494,
+      "visual_score": 0.558
+    },
+    {
+      "time": 88.0,
+      "face_score": 0.6,
+      "motion_score": 0.524,
+      "visual_score": 0.569
+    },
+    {
+      "time": 89.0,
+      "face_score": 0.0,
+      "motion_score": 0.505,
+      "visual_score": 0.121
+    },
+    {
+      "time": 90.0,
+      "face_score": 0.0,
+      "motion_score": 0.244,
+      "visual_score": 0.058
+    },
+    {
+      "time": 91.0,
+      "face_score": 0.0,
+      "motion_score": 0.224,
+      "visual_score": 0.054
+    },
+    {
+      "time": 92.0,
+      "face_score": 0.6,
+      "motion_score": 0.238,
+      "visual_score": 0.455
+    },
+    {
+      "time": 93.0,
+      "face_score": 0.6,
+      "motion_score": 0.032,
+      "visual_score": 0.373
+    },
+    {
+      "time": 94.0,
+      "face_score": 0.0,
+      "motion_score": 0.037,
+      "visual_score": 0.009
+    },
+    {
+      "time": 95.0,
+      "face_score": 0.6,
+      "motion_score": 0.06,
+      "visual_score": 0.384
+    },
+    {
+      "time": 96.0,
+      "face_score": 0.6,
+      "motion_score": 0.054,
+      "visual_score": 0.382
+    },
+    {
+      "time": 97.0,
+      "face_score": 0.6,
+      "motion_score": 0.046,
+      "visual_score": 0.378
+    },
+    {
+      "time": 98.0,
+      "face_score": 0.6,
+      "motion_score": 0.056,
+      "visual_score": 0.382
+    },
+    {
+      "time": 99.0,
+      "face_score": 0.6,
+      "motion_score": 0.137,
+      "visual_score": 0.415
+    },
+    {
+      "time": 100.0,
+      "face_score": 0.6,
+      "motion_score": 0.297,
+      "visual_score": 0.479
+    },
+    {
+      "time": 101.0,
+      "face_score": 0.6,
+      "motion_score": 0.629,
+      "visual_score": 0.612
+    },
+    {
+      "time": 102.0,
+      "face_score": 0.6,
+      "motion_score": 0.673,
+      "visual_score": 0.629
+    },
+    {
+      "time": 103.0,
+      "face_score": 0.6,
+      "motion_score": 0.222,
+      "visual_score": 0.449
+    },
+    {
+      "time": 104.0,
+      "face_score": 0.6,
+      "motion_score": 0.784,
+      "visual_score": 0.673
+    },
+    {
+      "time": 105.0,
+      "face_score": 0.0,
+      "motion_score": 0.566,
+      "visual_score": 0.136
+    },
+    {
+      "time": 106.0,
+      "face_score": 0.6,
+      "motion_score": 0.281,
+      "visual_score": 0.472
+    },
+    {
+      "time": 107.0,
+      "face_score": 0.6,
+      "motion_score": 0.137,
+      "visual_score": 0.415
+    },
+    {
+      "time": 108.0,
+      "face_score": 0.6,
+      "motion_score": 0.09,
+      "visual_score": 0.396
+    },
+    {
+      "time": 109.0,
+      "face_score": 0.6,
+      "motion_score": 0.061,
+      "visual_score": 0.384
+    },
+    {
+      "time": 110.0,
+      "face_score": 0.6,
+      "motion_score": 0.014,
+      "visual_score": 0.365
+    },
+    {
+      "time": 111.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 112.0,
+      "face_score": 0.6,
+      "motion_score": 0.032,
+      "visual_score": 0.373
+    },
+    {
+      "time": 113.0,
+      "face_score": 0.6,
+      "motion_score": 0.085,
+      "visual_score": 0.394
+    },
+    {
+      "time": 114.0,
+      "face_score": 0.6,
+      "motion_score": 0.065,
+      "visual_score": 0.386
+    },
+    {
+      "time": 115.0,
+      "face_score": 0.6,
+      "motion_score": 0.056,
+      "visual_score": 0.382
+    },
+    {
+      "time": 116.0,
+      "face_score": 0.6,
+      "motion_score": 0.044,
+      "visual_score": 0.378
+    },
+    {
+      "time": 117.0,
+      "face_score": 0.6,
+      "motion_score": 0.042,
+      "visual_score": 0.377
+    },
+    {
+      "time": 118.0,
+      "face_score": 0.6,
+      "motion_score": 0.082,
+      "visual_score": 0.393
+    },
+    {
+      "time": 119.0,
+      "face_score": 0.6,
+      "motion_score": 0.055,
+      "visual_score": 0.382
+    },
+    {
+      "time": 120.0,
+      "face_score": 0.6,
+      "motion_score": 0.037,
+      "visual_score": 0.375
+    },
+    {
+      "time": 121.0,
+      "face_score": 0.6,
+      "motion_score": 0.044,
+      "visual_score": 0.377
+    },
+    {
+      "time": 122.0,
+      "face_score": 0.6,
+      "motion_score": 0.061,
+      "visual_score": 0.384
+    },
+    {
+      "time": 123.0,
+      "face_score": 0.6,
+      "motion_score": 0.074,
+      "visual_score": 0.39
+    },
+    {
+      "time": 124.0,
+      "face_score": 0.6,
+      "motion_score": 0.073,
+      "visual_score": 0.389
+    },
+    {
+      "time": 125.0,
+      "face_score": 0.6,
+      "motion_score": 0.091,
+      "visual_score": 0.396
+    },
+    {
+      "time": 126.0,
+      "face_score": 0.6,
+      "motion_score": 0.186,
+      "visual_score": 0.434
+    },
+    {
+      "time": 127.0,
+      "face_score": 0.6,
+      "motion_score": 0.081,
+      "visual_score": 0.393
+    },
+    {
+      "time": 128.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 129.0,
+      "face_score": 0.6,
+      "motion_score": 0.802,
+      "visual_score": 0.681
+    },
+    {
+      "time": 130.0,
+      "face_score": 0.6,
+      "motion_score": 0.374,
+      "visual_score": 0.51
+    },
+    {
+      "time": 131.0,
+      "face_score": 0.6,
+      "motion_score": 0.298,
+      "visual_score": 0.479
+    },
+    {
+      "time": 132.0,
+      "face_score": 0.6,
+      "motion_score": 0.467,
+      "visual_score": 0.547
+    },
+    {
+      "time": 133.0,
+      "face_score": 0.6,
+      "motion_score": 0.744,
+      "visual_score": 0.658
+    },
+    {
+      "time": 134.0,
+      "face_score": 0.6,
+      "motion_score": 0.088,
+      "visual_score": 0.395
+    },
+    {
+      "time": 135.0,
+      "face_score": 0.6,
+      "motion_score": 0.21,
+      "visual_score": 0.444
+    },
+    {
+      "time": 136.0,
+      "face_score": 0.6,
+      "motion_score": 0.223,
+      "visual_score": 0.449
+    },
+    {
+      "time": 137.0,
+      "face_score": 0.6,
+      "motion_score": 0.226,
+      "visual_score": 0.45
+    },
+    {
+      "time": 138.0,
+      "face_score": 0.6,
+      "motion_score": 0.18,
+      "visual_score": 0.432
+    },
+    {
+      "time": 139.0,
+      "face_score": 0.6,
+      "motion_score": 0.741,
+      "visual_score": 0.657
+    },
+    {
+      "time": 140.0,
+      "face_score": 0.6,
+      "motion_score": 0.411,
+      "visual_score": 0.524
+    },
+    {
+      "time": 141.0,
+      "face_score": 0.6,
+      "motion_score": 0.645,
+      "visual_score": 0.618
+    },
+    {
+      "time": 142.0,
+      "face_score": 0.6,
+      "motion_score": 0.389,
+      "visual_score": 0.515
+    },
+    {
+      "time": 143.0,
+      "face_score": 0.6,
+      "motion_score": 0.474,
+      "visual_score": 0.55
+    },
+    {
+      "time": 144.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 145.0,
+      "face_score": 0.6,
+      "motion_score": 0.489,
+      "visual_score": 0.556
+    },
+    {
+      "time": 146.0,
+      "face_score": 0.6,
+      "motion_score": 0.988,
+      "visual_score": 0.755
+    },
+    {
+      "time": 147.0,
+      "face_score": 0.6,
+      "motion_score": 0.236,
+      "visual_score": 0.454
+    },
+    {
+      "time": 148.0,
+      "face_score": 0.6,
+      "motion_score": 0.528,
+      "visual_score": 0.571
+    },
+    {
+      "time": 149.0,
+      "face_score": 0.6,
+      "motion_score": 0.964,
+      "visual_score": 0.746
+    },
+    {
+      "time": 150.0,
+      "face_score": 0.6,
+      "motion_score": 0.77,
+      "visual_score": 0.668
+    },
+    {
+      "time": 151.0,
+      "face_score": 0.6,
+      "motion_score": 0.671,
+      "visual_score": 0.628
+    },
+    {
+      "time": 152.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 153.0,
+      "face_score": 0.6,
+      "motion_score": 0.168,
+      "visual_score": 0.427
+    },
+    {
+      "time": 154.0,
+      "face_score": 0.6,
+      "motion_score": 0.053,
+      "visual_score": 0.381
+    },
+    {
+      "time": 155.0,
+      "face_score": 0.6,
+      "motion_score": 0.168,
+      "visual_score": 0.427
+    },
+    {
+      "time": 156.0,
+      "face_score": 0.6,
+      "motion_score": 0.205,
+      "visual_score": 0.442
+    },
+    {
+      "time": 157.0,
+      "face_score": 0.6,
+      "motion_score": 0.795,
+      "visual_score": 0.678
+    },
+    {
+      "time": 158.0,
+      "face_score": 0.6,
+      "motion_score": 0.131,
+      "visual_score": 0.413
+    },
+    {
+      "time": 159.0,
+      "face_score": 0.6,
+      "motion_score": 0.755,
+      "visual_score": 0.662
+    },
+    {
+      "time": 160.0,
+      "face_score": 0.6,
+      "motion_score": 0.129,
+      "visual_score": 0.412
+    },
+    {
+      "time": 161.0,
+      "face_score": 0.6,
+      "motion_score": 0.158,
+      "visual_score": 0.423
+    },
+    {
+      "time": 162.0,
+      "face_score": 0.6,
+      "motion_score": 0.113,
+      "visual_score": 0.405
+    },
+    {
+      "time": 163.0,
+      "face_score": 0.6,
+      "motion_score": 0.143,
+      "visual_score": 0.417
+    },
+    {
+      "time": 164.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 165.0,
+      "face_score": 0.6,
+      "motion_score": 0.266,
+      "visual_score": 0.466
+    },
+    {
+      "time": 166.0,
+      "face_score": 0.6,
+      "motion_score": 0.238,
+      "visual_score": 0.455
+    },
+    {
+      "time": 167.0,
+      "face_score": 0.6,
+      "motion_score": 0.776,
+      "visual_score": 0.67
+    },
+    {
+      "time": 168.0,
+      "face_score": 0.6,
+      "motion_score": 0.697,
+      "visual_score": 0.639
+    },
+    {
+      "time": 169.0,
+      "face_score": 0.6,
+      "motion_score": 0.35,
+      "visual_score": 0.5
+    },
+    {
+      "time": 170.0,
+      "face_score": 0.6,
+      "motion_score": 0.499,
+      "visual_score": 0.559
+    },
+    {
+      "time": 171.0,
+      "face_score": 0.6,
+      "motion_score": 0.915,
+      "visual_score": 0.726
+    },
+    {
+      "time": 172.0,
+      "face_score": 0.6,
+      "motion_score": 0.34,
+      "visual_score": 0.496
+    },
+    {
+      "time": 173.0,
+      "face_score": 0.6,
+      "motion_score": 0.234,
+      "visual_score": 0.453
+    },
+    {
+      "time": 174.0,
+      "face_score": 0.6,
+      "motion_score": 0.908,
+      "visual_score": 0.723
+    },
+    {
+      "time": 175.0,
+      "face_score": 0.6,
+      "motion_score": 0.876,
+      "visual_score": 0.71
+    },
+    {
+      "time": 176.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 177.0,
+      "face_score": 0.6,
+      "motion_score": 0.275,
+      "visual_score": 0.47
+    },
+    {
+      "time": 178.0,
+      "face_score": 0.6,
+      "motion_score": 0.048,
+      "visual_score": 0.379
+    },
+    {
+      "time": 179.0,
+      "face_score": 0.6,
+      "motion_score": 0.22,
+      "visual_score": 0.448
+    },
+    {
+      "time": 180.0,
+      "face_score": 0.6,
+      "motion_score": 0.259,
+      "visual_score": 0.464
+    },
+    {
+      "time": 181.0,
+      "face_score": 0.0,
+      "motion_score": 0.261,
+      "visual_score": 0.063
+    },
+    {
+      "time": 182.0,
+      "face_score": 0.6,
+      "motion_score": 0.566,
+      "visual_score": 0.586
+    },
+    {
+      "time": 183.0,
+      "face_score": 0.6,
+      "motion_score": 0.887,
+      "visual_score": 0.715
+    },
+    {
+      "time": 184.0,
+      "face_score": 0.6,
+      "motion_score": 0.215,
+      "visual_score": 0.446
+    },
+    {
+      "time": 185.0,
+      "face_score": 0.6,
+      "motion_score": 0.164,
+      "visual_score": 0.426
+    },
+    {
+      "time": 186.0,
+      "face_score": 0.6,
+      "motion_score": 0.682,
+      "visual_score": 0.633
+    },
+    {
+      "time": 187.0,
+      "face_score": 0.6,
+      "motion_score": 0.819,
+      "visual_score": 0.687
+    },
+    {
+      "time": 188.0,
+      "face_score": 0.6,
+      "motion_score": 0.634,
+      "visual_score": 0.614
+    },
+    {
+      "time": 189.0,
+      "face_score": 0.6,
+      "motion_score": 0.263,
+      "visual_score": 0.465
+    },
+    {
+      "time": 190.0,
+      "face_score": 0.6,
+      "motion_score": 0.72,
+      "visual_score": 0.648
+    },
+    {
+      "time": 191.0,
+      "face_score": 0.6,
+      "motion_score": 0.444,
+      "visual_score": 0.538
+    },
+    {
+      "time": 192.0,
+      "face_score": 0.6,
+      "motion_score": 0.144,
+      "visual_score": 0.418
+    },
+    {
+      "time": 193.0,
+      "face_score": 0.6,
+      "motion_score": 0.192,
+      "visual_score": 0.437
+    },
+    {
+      "time": 194.0,
+      "face_score": 0.6,
+      "motion_score": 0.106,
+      "visual_score": 0.402
+    },
+    {
+      "time": 195.0,
+      "face_score": 0.6,
+      "motion_score": 0.351,
+      "visual_score": 0.5
+    },
+    {
+      "time": 196.0,
+      "face_score": 0.6,
+      "motion_score": 0.155,
+      "visual_score": 0.422
+    },
+    {
+      "time": 197.0,
+      "face_score": 0.6,
+      "motion_score": 0.73,
+      "visual_score": 0.652
+    },
+    {
+      "time": 198.0,
+      "face_score": 0.6,
+      "motion_score": 0.291,
+      "visual_score": 0.477
+    },
+    {
+      "time": 199.0,
+      "face_score": 0.6,
+      "motion_score": 0.181,
+      "visual_score": 0.432
+    },
+    {
+      "time": 200.0,
+      "face_score": 0.6,
+      "motion_score": 0.195,
+      "visual_score": 0.438
+    },
+    {
+      "time": 201.0,
+      "face_score": 0.6,
+      "motion_score": 0.26,
+      "visual_score": 0.464
+    },
+    {
+      "time": 202.0,
+      "face_score": 0.6,
+      "motion_score": 0.245,
+      "visual_score": 0.458
+    },
+    {
+      "time": 203.0,
+      "face_score": 0.6,
+      "motion_score": 0.186,
+      "visual_score": 0.434
+    },
+    {
+      "time": 204.0,
+      "face_score": 0.6,
+      "motion_score": 0.276,
+      "visual_score": 0.47
+    },
+    {
+      "time": 205.0,
+      "face_score": 0.6,
+      "motion_score": 0.181,
+      "visual_score": 0.433
+    },
+    {
+      "time": 206.0,
+      "face_score": 0.6,
+      "motion_score": 0.165,
+      "visual_score": 0.426
+    },
+    {
+      "time": 207.0,
+      "face_score": 0.6,
+      "motion_score": 0.173,
+      "visual_score": 0.429
+    },
+    {
+      "time": 208.0,
+      "face_score": 0.6,
+      "motion_score": 0.297,
+      "visual_score": 0.479
+    },
+    {
+      "time": 209.0,
+      "face_score": 0.6,
+      "motion_score": 0.372,
+      "visual_score": 0.509
+    },
+    {
+      "time": 210.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 211.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 212.0,
+      "face_score": 0.6,
+      "motion_score": 0.562,
+      "visual_score": 0.585
+    },
+    {
+      "time": 213.0,
+      "face_score": 0.6,
+      "motion_score": 0.894,
+      "visual_score": 0.718
+    },
+    {
+      "time": 214.0,
+      "face_score": 0.6,
+      "motion_score": 0.404,
+      "visual_score": 0.522
+    },
+    {
+      "time": 215.0,
+      "face_score": 0.6,
+      "motion_score": 0.597,
+      "visual_score": 0.599
+    },
+    {
+      "time": 216.0,
+      "face_score": 0.6,
+      "motion_score": 0.559,
+      "visual_score": 0.584
+    },
+    {
+      "time": 217.0,
+      "face_score": 0.6,
+      "motion_score": 0.524,
+      "visual_score": 0.57
+    },
+    {
+      "time": 218.0,
+      "face_score": 0.6,
+      "motion_score": 0.251,
+      "visual_score": 0.46
+    },
+    {
+      "time": 219.0,
+      "face_score": 0.6,
+      "motion_score": 0.569,
+      "visual_score": 0.588
+    },
+    {
+      "time": 220.0,
+      "face_score": 0.6,
+      "motion_score": 0.807,
+      "visual_score": 0.683
+    },
+    {
+      "time": 221.0,
+      "face_score": 0.6,
+      "motion_score": 0.126,
+      "visual_score": 0.411
+    },
+    {
+      "time": 222.0,
+      "face_score": 0.6,
+      "motion_score": 0.075,
+      "visual_score": 0.39
+    },
+    {
+      "time": 223.0,
+      "face_score": 0.6,
+      "motion_score": 0.235,
+      "visual_score": 0.454
+    },
+    {
+      "time": 224.0,
+      "face_score": 0.6,
+      "motion_score": 0.23,
+      "visual_score": 0.452
+    },
+    {
+      "time": 225.0,
+      "face_score": 0.6,
+      "motion_score": 0.349,
+      "visual_score": 0.499
+    },
+    {
+      "time": 226.0,
+      "face_score": 0.6,
+      "motion_score": 0.562,
+      "visual_score": 0.585
+    },
+    {
+      "time": 227.0,
+      "face_score": 0.6,
+      "motion_score": 0.647,
+      "visual_score": 0.619
+    },
+    {
+      "time": 228.0,
+      "face_score": 0.6,
+      "motion_score": 0.295,
+      "visual_score": 0.478
+    },
+    {
+      "time": 229.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 230.0,
+      "face_score": 0.6,
+      "motion_score": 0.066,
+      "visual_score": 0.387
+    },
+    {
+      "time": 231.0,
+      "face_score": 0.6,
+      "motion_score": 0.028,
+      "visual_score": 0.371
+    },
+    {
+      "time": 232.0,
+      "face_score": 0.6,
+      "motion_score": 0.105,
+      "visual_score": 0.402
+    },
+    {
+      "time": 233.0,
+      "face_score": 0.6,
+      "motion_score": 0.098,
+      "visual_score": 0.399
+    },
+    {
+      "time": 234.0,
+      "face_score": 0.6,
+      "motion_score": 0.077,
+      "visual_score": 0.391
+    },
+    {
+      "time": 235.0,
+      "face_score": 0.6,
+      "motion_score": 0.068,
+      "visual_score": 0.387
+    },
+    {
+      "time": 236.0,
+      "face_score": 0.6,
+      "motion_score": 0.147,
+      "visual_score": 0.419
+    },
+    {
+      "time": 237.0,
+      "face_score": 0.6,
+      "motion_score": 0.162,
+      "visual_score": 0.425
+    },
+    {
+      "time": 238.0,
+      "face_score": 0.6,
+      "motion_score": 0.133,
+      "visual_score": 0.413
+    },
+    {
+      "time": 239.0,
+      "face_score": 0.6,
+      "motion_score": 0.235,
+      "visual_score": 0.454
+    },
+    {
+      "time": 240.0,
+      "face_score": 0.6,
+      "motion_score": 0.084,
+      "visual_score": 0.394
+    },
+    {
+      "time": 241.0,
+      "face_score": 0.6,
+      "motion_score": 0.382,
+      "visual_score": 0.513
+    },
+    {
+      "time": 242.0,
+      "face_score": 0.6,
+      "motion_score": 0.179,
+      "visual_score": 0.432
+    },
+    {
+      "time": 243.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 244.0,
+      "face_score": 0.6,
+      "motion_score": 0.59,
+      "visual_score": 0.596
+    },
+    {
+      "time": 245.0,
+      "face_score": 0.6,
+      "motion_score": 0.886,
+      "visual_score": 0.714
+    },
+    {
+      "time": 246.0,
+      "face_score": 0.6,
+      "motion_score": 0.901,
+      "visual_score": 0.72
+    },
+    {
+      "time": 247.0,
+      "face_score": 0.0,
+      "motion_score": 0.941,
+      "visual_score": 0.226
+    },
+    {
+      "time": 248.0,
+      "face_score": 0.6,
+      "motion_score": 0.943,
+      "visual_score": 0.737
+    },
+    {
+      "time": 249.0,
+      "face_score": 0.6,
+      "motion_score": 0.703,
+      "visual_score": 0.641
+    },
+    {
+      "time": 250.0,
+      "face_score": 0.6,
+      "motion_score": 0.757,
+      "visual_score": 0.663
+    },
+    {
+      "time": 251.0,
+      "face_score": 0.6,
+      "motion_score": 0.521,
+      "visual_score": 0.568
+    },
+    {
+      "time": 252.0,
+      "face_score": 0.6,
+      "motion_score": 0.501,
+      "visual_score": 0.561
+    },
+    {
+      "time": 253.0,
+      "face_score": 0.0,
+      "motion_score": 0.369,
+      "visual_score": 0.089
+    },
+    {
+      "time": 254.0,
+      "face_score": 0.6,
+      "motion_score": 0.595,
+      "visual_score": 0.598
+    },
+    {
+      "time": 255.0,
+      "face_score": 0.6,
+      "motion_score": 0.633,
+      "visual_score": 0.613
+    },
+    {
+      "time": 256.0,
+      "face_score": 0.6,
+      "motion_score": 0.5,
+      "visual_score": 0.56
+    },
+    {
+      "time": 257.0,
+      "face_score": 0.6,
+      "motion_score": 0.504,
+      "visual_score": 0.562
+    },
+    {
+      "time": 258.0,
+      "face_score": 0.6,
+      "motion_score": 0.203,
+      "visual_score": 0.441
+    },
+    {
+      "time": 259.0,
+      "face_score": 0.6,
+      "motion_score": 0.383,
+      "visual_score": 0.513
+    },
+    {
+      "time": 260.0,
+      "face_score": 0.6,
+      "motion_score": 0.899,
+      "visual_score": 0.72
+    },
+    {
+      "time": 261.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 262.0,
+      "face_score": 0.6,
+      "motion_score": 0.178,
+      "visual_score": 0.431
+    },
+    {
+      "time": 263.0,
+      "face_score": 0.6,
+      "motion_score": 0.112,
+      "visual_score": 0.405
+    },
+    {
+      "time": 264.0,
+      "face_score": 0.6,
+      "motion_score": 0.076,
+      "visual_score": 0.39
+    },
+    {
+      "time": 265.0,
+      "face_score": 0.6,
+      "motion_score": 0.093,
+      "visual_score": 0.397
+    },
+    {
+      "time": 266.0,
+      "face_score": 0.6,
+      "motion_score": 0.117,
+      "visual_score": 0.407
+    },
+    {
+      "time": 267.0,
+      "face_score": 0.6,
+      "motion_score": 0.426,
+      "visual_score": 0.53
+    },
+    {
+      "time": 268.0,
+      "face_score": 0.6,
+      "motion_score": 0.161,
+      "visual_score": 0.424
+    },
+    {
+      "time": 269.0,
+      "face_score": 0.6,
+      "motion_score": 0.559,
+      "visual_score": 0.584
+    },
+    {
+      "time": 270.0,
+      "face_score": 0.6,
+      "motion_score": 0.107,
+      "visual_score": 0.403
+    },
+    {
+      "time": 271.0,
+      "face_score": 0.6,
+      "motion_score": 0.092,
+      "visual_score": 0.397
+    },
+    {
+      "time": 272.0,
+      "face_score": 0.6,
+      "motion_score": 0.093,
+      "visual_score": 0.397
+    },
+    {
+      "time": 273.0,
+      "face_score": 0.6,
+      "motion_score": 0.219,
+      "visual_score": 0.448
+    },
+    {
+      "time": 274.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 275.0,
+      "face_score": 0.6,
+      "motion_score": 0.801,
+      "visual_score": 0.68
+    },
+    {
+      "time": 276.0,
+      "face_score": 0.6,
+      "motion_score": 0.746,
+      "visual_score": 0.658
+    },
+    {
+      "time": 277.0,
+      "face_score": 0.6,
+      "motion_score": 0.944,
+      "visual_score": 0.737
+    },
+    {
+      "time": 278.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 279.0,
+      "face_score": 0.6,
+      "motion_score": 0.739,
+      "visual_score": 0.656
+    },
+    {
+      "time": 280.0,
+      "face_score": 0.6,
+      "motion_score": 0.672,
+      "visual_score": 0.629
+    },
+    {
+      "time": 281.0,
+      "face_score": 0.6,
+      "motion_score": 0.765,
+      "visual_score": 0.666
+    },
+    {
+      "time": 282.0,
+      "face_score": 0.6,
+      "motion_score": 0.441,
+      "visual_score": 0.536
+    },
+    {
+      "time": 283.0,
+      "face_score": 0.6,
+      "motion_score": 0.456,
+      "visual_score": 0.542
+    },
+    {
+      "time": 284.0,
+      "face_score": 0.6,
+      "motion_score": 0.221,
+      "visual_score": 0.448
+    },
+    {
+      "time": 285.0,
+      "face_score": 0.6,
+      "motion_score": 0.787,
+      "visual_score": 0.675
+    },
+    {
+      "time": 286.0,
+      "face_score": 0.6,
+      "motion_score": 0.355,
+      "visual_score": 0.502
+    },
+    {
+      "time": 287.0,
+      "face_score": 0.6,
+      "motion_score": 0.775,
+      "visual_score": 0.67
+    },
+    {
+      "time": 288.0,
+      "face_score": 0.6,
+      "motion_score": 0.896,
+      "visual_score": 0.718
+    },
+    {
+      "time": 289.0,
+      "face_score": 0.6,
+      "motion_score": 0.847,
+      "visual_score": 0.699
+    },
+    {
+      "time": 290.0,
+      "face_score": 0.6,
+      "motion_score": 0.946,
+      "visual_score": 0.739
+    },
+    {
+      "time": 291.0,
+      "face_score": 0.6,
+      "motion_score": 0.656,
+      "visual_score": 0.622
+    },
+    {
+      "time": 292.0,
+      "face_score": 0.6,
+      "motion_score": 0.521,
+      "visual_score": 0.569
+    },
+    {
+      "time": 293.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 294.0,
+      "face_score": 0.6,
+      "motion_score": 0.282,
+      "visual_score": 0.473
+    },
+    {
+      "time": 295.0,
+      "face_score": 0.6,
+      "motion_score": 0.095,
+      "visual_score": 0.398
+    },
+    {
+      "time": 296.0,
+      "face_score": 0.6,
+      "motion_score": 0.63,
+      "visual_score": 0.612
+    },
+    {
+      "time": 297.0,
+      "face_score": 0.6,
+      "motion_score": 0.859,
+      "visual_score": 0.704
+    },
+    {
+      "time": 298.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 299.0,
+      "face_score": 0.6,
+      "motion_score": 0.437,
+      "visual_score": 0.535
+    },
+    {
+      "time": 300.0,
+      "face_score": 0.6,
+      "motion_score": 0.756,
+      "visual_score": 0.663
+    },
+    {
+      "time": 301.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 302.0,
+      "face_score": 0.6,
+      "motion_score": 0.058,
+      "visual_score": 0.383
+    },
+    {
+      "time": 303.0,
+      "face_score": 0.6,
+      "motion_score": 0.052,
+      "visual_score": 0.381
+    },
+    {
+      "time": 304.0,
+      "face_score": 0.6,
+      "motion_score": 0.081,
+      "visual_score": 0.392
+    },
+    {
+      "time": 305.0,
+      "face_score": 0.6,
+      "motion_score": 0.133,
+      "visual_score": 0.413
+    },
+    {
+      "time": 306.0,
+      "face_score": 0.6,
+      "motion_score": 0.17,
+      "visual_score": 0.428
+    },
+    {
+      "time": 307.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 308.0,
+      "face_score": 0.6,
+      "motion_score": 0.583,
+      "visual_score": 0.593
+    },
+    {
+      "time": 309.0,
+      "face_score": 0.6,
+      "motion_score": 0.416,
+      "visual_score": 0.526
+    },
+    {
+      "time": 310.0,
+      "face_score": 0.6,
+      "motion_score": 0.518,
+      "visual_score": 0.567
+    },
+    {
+      "time": 311.0,
+      "face_score": 0.6,
+      "motion_score": 0.494,
+      "visual_score": 0.558
+    },
+    {
+      "time": 312.0,
+      "face_score": 0.6,
+      "motion_score": 0.176,
+      "visual_score": 0.43
+    },
+    {
+      "time": 313.0,
+      "face_score": 0.6,
+      "motion_score": 0.347,
+      "visual_score": 0.499
+    },
+    {
+      "time": 314.0,
+      "face_score": 0.6,
+      "motion_score": 0.266,
+      "visual_score": 0.467
+    },
+    {
+      "time": 315.0,
+      "face_score": 0.6,
+      "motion_score": 0.447,
+      "visual_score": 0.539
+    },
+    {
+      "time": 316.0,
+      "face_score": 0.6,
+      "motion_score": 0.432,
+      "visual_score": 0.533
+    },
+    {
+      "time": 317.0,
+      "face_score": 0.6,
+      "motion_score": 0.663,
+      "visual_score": 0.625
+    },
+    {
+      "time": 318.0,
+      "face_score": 0.6,
+      "motion_score": 0.425,
+      "visual_score": 0.53
+    },
+    {
+      "time": 319.0,
+      "face_score": 0.6,
+      "motion_score": 0.675,
+      "visual_score": 0.63
+    },
+    {
+      "time": 320.0,
+      "face_score": 0.6,
+      "motion_score": 0.421,
+      "visual_score": 0.528
+    },
+    {
+      "time": 321.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 322.0,
+      "face_score": 0.6,
+      "motion_score": 0.071,
+      "visual_score": 0.388
+    },
+    {
+      "time": 323.0,
+      "face_score": 0.6,
+      "motion_score": 0.031,
+      "visual_score": 0.372
+    },
+    {
+      "time": 324.0,
+      "face_score": 0.6,
+      "motion_score": 0.04,
+      "visual_score": 0.376
+    },
+    {
+      "time": 325.0,
+      "face_score": 0.6,
+      "motion_score": 0.032,
+      "visual_score": 0.373
+    },
+    {
+      "time": 326.0,
+      "face_score": 0.6,
+      "motion_score": 0.027,
+      "visual_score": 0.371
+    },
+    {
+      "time": 327.0,
+      "face_score": 0.6,
+      "motion_score": 0.035,
+      "visual_score": 0.374
+    },
+    {
+      "time": 328.0,
+      "face_score": 0.6,
+      "motion_score": 0.035,
+      "visual_score": 0.374
+    },
+    {
+      "time": 329.0,
+      "face_score": 0.6,
+      "motion_score": 0.031,
+      "visual_score": 0.372
+    },
+    {
+      "time": 330.0,
+      "face_score": 0.0,
+      "motion_score": 0.029,
+      "visual_score": 0.007
+    },
+    {
+      "time": 331.0,
+      "face_score": 0.6,
+      "motion_score": 0.035,
+      "visual_score": 0.374
+    },
+    {
+      "time": 332.0,
+      "face_score": 0.6,
+      "motion_score": 0.023,
+      "visual_score": 0.369
+    },
+    {
+      "time": 333.0,
+      "face_score": 0.6,
+      "motion_score": 0.041,
+      "visual_score": 0.376
+    },
+    {
+      "time": 334.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 335.0,
+      "face_score": 0.6,
+      "motion_score": 0.849,
+      "visual_score": 0.7
+    },
+    {
+      "time": 336.0,
+      "face_score": 0.6,
+      "motion_score": 0.901,
+      "visual_score": 0.72
+    },
+    {
+      "time": 337.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 338.0,
+      "face_score": 0.6,
+      "motion_score": 0.942,
+      "visual_score": 0.737
+    },
+    {
+      "time": 339.0,
+      "face_score": 0.6,
+      "motion_score": 0.588,
+      "visual_score": 0.595
+    },
+    {
+      "time": 340.0,
+      "face_score": 0.6,
+      "motion_score": 0.977,
+      "visual_score": 0.751
+    },
+    {
+      "time": 341.0,
+      "face_score": 0.6,
+      "motion_score": 0.333,
+      "visual_score": 0.493
+    },
+    {
+      "time": 342.0,
+      "face_score": 0.6,
+      "motion_score": 0.162,
+      "visual_score": 0.425
+    },
+    {
+      "time": 343.0,
+      "face_score": 0.6,
+      "motion_score": 0.115,
+      "visual_score": 0.406
+    },
+    {
+      "time": 344.0,
+      "face_score": 0.6,
+      "motion_score": 0.255,
+      "visual_score": 0.462
+    },
+    {
+      "time": 345.0,
+      "face_score": 0.6,
+      "motion_score": 0.257,
+      "visual_score": 0.463
+    },
+    {
+      "time": 346.0,
+      "face_score": 0.6,
+      "motion_score": 0.169,
+      "visual_score": 0.428
+    },
+    {
+      "time": 347.0,
+      "face_score": 0.6,
+      "motion_score": 0.307,
+      "visual_score": 0.483
+    },
+    {
+      "time": 348.0,
+      "face_score": 0.6,
+      "motion_score": 0.109,
+      "visual_score": 0.404
+    },
+    {
+      "time": 349.0,
+      "face_score": 0.6,
+      "motion_score": 0.139,
+      "visual_score": 0.415
+    },
+    {
+      "time": 350.0,
+      "face_score": 0.6,
+      "motion_score": 0.219,
+      "visual_score": 0.448
+    },
+    {
+      "time": 351.0,
+      "face_score": 0.6,
+      "motion_score": 0.507,
+      "visual_score": 0.563
+    },
+    {
+      "time": 352.0,
+      "face_score": 0.6,
+      "motion_score": 0.753,
+      "visual_score": 0.661
+    },
+    {
+      "time": 353.0,
+      "face_score": 0.6,
+      "motion_score": 0.899,
+      "visual_score": 0.72
+    },
+    {
+      "time": 354.0,
+      "face_score": 0.6,
+      "motion_score": 0.25,
+      "visual_score": 0.46
+    },
+    {
+      "time": 355.0,
+      "face_score": 0.6,
+      "motion_score": 0.81,
+      "visual_score": 0.684
+    },
+    {
+      "time": 356.0,
+      "face_score": 0.6,
+      "motion_score": 0.764,
+      "visual_score": 0.665
+    },
+    {
+      "time": 357.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 358.0,
+      "face_score": 0.6,
+      "motion_score": 0.655,
+      "visual_score": 0.622
+    },
+    {
+      "time": 359.0,
+      "face_score": 0.6,
+      "motion_score": 0.477,
+      "visual_score": 0.551
+    },
+    {
+      "time": 360.0,
+      "face_score": 0.6,
+      "motion_score": 0.768,
+      "visual_score": 0.667
+    },
+    {
+      "time": 361.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 362.0,
+      "face_score": 0.6,
+      "motion_score": 0.998,
+      "visual_score": 0.759
+    },
+    {
+      "time": 363.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 364.0,
+      "face_score": 0.6,
+      "motion_score": 0.073,
+      "visual_score": 0.389
+    },
+    {
+      "time": 365.0,
+      "face_score": 0.6,
+      "motion_score": 0.117,
+      "visual_score": 0.407
+    },
+    {
+      "time": 366.0,
+      "face_score": 0.6,
+      "motion_score": 0.083,
+      "visual_score": 0.393
+    },
+    {
+      "time": 367.0,
+      "face_score": 0.6,
+      "motion_score": 0.168,
+      "visual_score": 0.427
+    },
+    {
+      "time": 368.0,
+      "face_score": 0.6,
+      "motion_score": 0.182,
+      "visual_score": 0.433
+    },
+    {
+      "time": 369.0,
+      "face_score": 0.6,
+      "motion_score": 0.168,
+      "visual_score": 0.427
+    },
+    {
+      "time": 370.0,
+      "face_score": 0.6,
+      "motion_score": 0.248,
+      "visual_score": 0.459
+    },
+    {
+      "time": 371.0,
+      "face_score": 0.6,
+      "motion_score": 0.1,
+      "visual_score": 0.4
+    },
+    {
+      "time": 372.0,
+      "face_score": 0.6,
+      "motion_score": 0.049,
+      "visual_score": 0.38
+    },
+    {
+      "time": 373.0,
+      "face_score": 0.0,
+      "motion_score": 0.039,
+      "visual_score": 0.009
+    },
+    {
+      "time": 374.0,
+      "face_score": 0.6,
+      "motion_score": 0.041,
+      "visual_score": 0.377
+    },
+    {
+      "time": 375.0,
+      "face_score": 0.6,
+      "motion_score": 0.037,
+      "visual_score": 0.375
+    },
+    {
+      "time": 376.0,
+      "face_score": 0.6,
+      "motion_score": 0.041,
+      "visual_score": 0.376
+    },
+    {
+      "time": 377.0,
+      "face_score": 0.6,
+      "motion_score": 0.055,
+      "visual_score": 0.382
+    },
+    {
+      "time": 378.0,
+      "face_score": 0.6,
+      "motion_score": 0.074,
+      "visual_score": 0.39
+    },
+    {
+      "time": 379.0,
+      "face_score": 0.6,
+      "motion_score": 0.097,
+      "visual_score": 0.399
+    },
+    {
+      "time": 380.0,
+      "face_score": 0.6,
+      "motion_score": 0.082,
+      "visual_score": 0.393
+    },
+    {
+      "time": 381.0,
+      "face_score": 0.6,
+      "motion_score": 0.039,
+      "visual_score": 0.376
+    },
+    {
+      "time": 382.0,
+      "face_score": 0.6,
+      "motion_score": 0.058,
+      "visual_score": 0.383
+    },
+    {
+      "time": 383.0,
+      "face_score": 0.6,
+      "motion_score": 0.052,
+      "visual_score": 0.381
+    },
+    {
+      "time": 384.0,
+      "face_score": 0.6,
+      "motion_score": 0.059,
+      "visual_score": 0.383
+    },
+    {
+      "time": 385.0,
+      "face_score": 0.6,
+      "motion_score": 0.058,
+      "visual_score": 0.383
+    },
+    {
+      "time": 386.0,
+      "face_score": 0.6,
+      "motion_score": 0.034,
+      "visual_score": 0.374
+    },
+    {
+      "time": 387.0,
+      "face_score": 0.6,
+      "motion_score": 0.06,
+      "visual_score": 0.384
+    },
+    {
+      "time": 388.0,
+      "face_score": 0.6,
+      "motion_score": 0.046,
+      "visual_score": 0.378
+    },
+    {
+      "time": 389.0,
+      "face_score": 0.6,
+      "motion_score": 0.039,
+      "visual_score": 0.376
+    },
+    {
+      "time": 390.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 391.0,
+      "face_score": 0.6,
+      "motion_score": 0.318,
+      "visual_score": 0.487
+    },
+    {
+      "time": 392.0,
+      "face_score": 0.6,
+      "motion_score": 0.332,
+      "visual_score": 0.493
+    },
+    {
+      "time": 393.0,
+      "face_score": 0.6,
+      "motion_score": 0.635,
+      "visual_score": 0.614
+    },
+    {
+      "time": 394.0,
+      "face_score": 0.6,
+      "motion_score": 0.582,
+      "visual_score": 0.593
+    },
+    {
+      "time": 395.0,
+      "face_score": 0.0,
+      "motion_score": 0.7,
+      "visual_score": 0.168
+    },
+    {
+      "time": 396.0,
+      "face_score": 0.0,
+      "motion_score": 0.609,
+      "visual_score": 0.146
+    },
+    {
+      "time": 397.0,
+      "face_score": 0.6,
+      "motion_score": 0.455,
+      "visual_score": 0.542
+    },
+    {
+      "time": 398.0,
+      "face_score": 0.6,
+      "motion_score": 0.487,
+      "visual_score": 0.555
+    },
+    {
+      "time": 399.0,
+      "face_score": 0.6,
+      "motion_score": 0.239,
+      "visual_score": 0.456
+    },
+    {
+      "time": 400.0,
+      "face_score": 0.6,
+      "motion_score": 0.273,
+      "visual_score": 0.469
+    },
+    {
+      "time": 401.0,
+      "face_score": 0.6,
+      "motion_score": 0.178,
+      "visual_score": 0.431
+    },
+    {
+      "time": 402.0,
+      "face_score": 0.6,
+      "motion_score": 0.147,
+      "visual_score": 0.419
+    },
+    {
+      "time": 403.0,
+      "face_score": 0.6,
+      "motion_score": 0.197,
+      "visual_score": 0.439
+    },
+    {
+      "time": 404.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 405.0,
+      "face_score": 0.6,
+      "motion_score": 0.759,
+      "visual_score": 0.664
+    },
+    {
+      "time": 406.0,
+      "face_score": 0.6,
+      "motion_score": 0.187,
+      "visual_score": 0.435
+    },
+    {
+      "time": 407.0,
+      "face_score": 0.6,
+      "motion_score": 0.079,
+      "visual_score": 0.392
+    },
+    {
+      "time": 408.0,
+      "face_score": 0.6,
+      "motion_score": 0.071,
+      "visual_score": 0.388
+    },
+    {
+      "time": 409.0,
+      "face_score": 0.6,
+      "motion_score": 0.111,
+      "visual_score": 0.404
+    },
+    {
+      "time": 410.0,
+      "face_score": 0.6,
+      "motion_score": 0.07,
+      "visual_score": 0.388
+    },
+    {
+      "time": 411.0,
+      "face_score": 0.6,
+      "motion_score": 0.027,
+      "visual_score": 0.371
+    },
+    {
+      "time": 412.0,
+      "face_score": 0.6,
+      "motion_score": 0.066,
+      "visual_score": 0.386
+    },
+    {
+      "time": 413.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 414.0,
+      "face_score": 0.6,
+      "motion_score": 0.1,
+      "visual_score": 0.4
+    },
+    {
+      "time": 415.0,
+      "face_score": 0.6,
+      "motion_score": 0.181,
+      "visual_score": 0.432
+    },
+    {
+      "time": 416.0,
+      "face_score": 0.6,
+      "motion_score": 0.679,
+      "visual_score": 0.632
+    },
+    {
+      "time": 417.0,
+      "face_score": 0.6,
+      "motion_score": 0.555,
+      "visual_score": 0.582
+    },
+    {
+      "time": 418.0,
+      "face_score": 0.6,
+      "motion_score": 0.57,
+      "visual_score": 0.588
+    },
+    {
+      "time": 419.0,
+      "face_score": 0.6,
+      "motion_score": 0.58,
+      "visual_score": 0.592
+    },
+    {
+      "time": 420.0,
+      "face_score": 0.6,
+      "motion_score": 0.707,
+      "visual_score": 0.643
+    },
+    {
+      "time": 421.0,
+      "face_score": 0.6,
+      "motion_score": 0.612,
+      "visual_score": 0.605
+    },
+    {
+      "time": 422.0,
+      "face_score": 0.6,
+      "motion_score": 0.82,
+      "visual_score": 0.688
+    },
+    {
+      "time": 423.0,
+      "face_score": 0.6,
+      "motion_score": 0.722,
+      "visual_score": 0.649
+    },
+    {
+      "time": 424.0,
+      "face_score": 0.6,
+      "motion_score": 0.66,
+      "visual_score": 0.624
+    },
+    {
+      "time": 425.0,
+      "face_score": 0.6,
+      "motion_score": 0.66,
+      "visual_score": 0.624
+    },
+    {
+      "time": 426.0,
+      "face_score": 0.6,
+      "motion_score": 0.682,
+      "visual_score": 0.633
+    },
+    {
+      "time": 427.0,
+      "face_score": 0.6,
+      "motion_score": 0.555,
+      "visual_score": 0.582
+    },
+    {
+      "time": 428.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 429.0,
+      "face_score": 0.6,
+      "motion_score": 0.136,
+      "visual_score": 0.414
+    },
+    {
+      "time": 430.0,
+      "face_score": 0.6,
+      "motion_score": 0.14,
+      "visual_score": 0.416
+    },
+    {
+      "time": 431.0,
+      "face_score": 0.6,
+      "motion_score": 0.15,
+      "visual_score": 0.42
+    },
+    {
+      "time": 432.0,
+      "face_score": 0.6,
+      "motion_score": 0.178,
+      "visual_score": 0.431
+    },
+    {
+      "time": 433.0,
+      "face_score": 0.6,
+      "motion_score": 0.117,
+      "visual_score": 0.407
+    },
+    {
+      "time": 434.0,
+      "face_score": 0.6,
+      "motion_score": 0.081,
+      "visual_score": 0.392
+    },
+    {
+      "time": 435.0,
+      "face_score": 0.6,
+      "motion_score": 0.087,
+      "visual_score": 0.395
+    },
+    {
+      "time": 436.0,
+      "face_score": 0.6,
+      "motion_score": 0.156,
+      "visual_score": 0.422
+    },
+    {
+      "time": 437.0,
+      "face_score": 0.6,
+      "motion_score": 0.893,
+      "visual_score": 0.717
+    },
+    {
+      "time": 438.0,
+      "face_score": 0.6,
+      "motion_score": 0.667,
+      "visual_score": 0.627
+    },
+    {
+      "time": 439.0,
+      "face_score": 0.6,
+      "motion_score": 0.178,
+      "visual_score": 0.431
+    },
+    {
+      "time": 440.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 441.0,
+      "face_score": 0.6,
+      "motion_score": 0.197,
+      "visual_score": 0.439
+    },
+    {
+      "time": 442.0,
+      "face_score": 0.6,
+      "motion_score": 0.155,
+      "visual_score": 0.422
+    },
+    {
+      "time": 443.0,
+      "face_score": 0.6,
+      "motion_score": 0.084,
+      "visual_score": 0.393
+    },
+    {
+      "time": 444.0,
+      "face_score": 0.6,
+      "motion_score": 0.092,
+      "visual_score": 0.397
+    },
+    {
+      "time": 445.0,
+      "face_score": 0.6,
+      "motion_score": 0.068,
+      "visual_score": 0.387
+    },
+    {
+      "time": 446.0,
+      "face_score": 0.6,
+      "motion_score": 0.086,
+      "visual_score": 0.395
+    },
+    {
+      "time": 447.0,
+      "face_score": 0.6,
+      "motion_score": 0.086,
+      "visual_score": 0.394
+    },
+    {
+      "time": 448.0,
+      "face_score": 0.6,
+      "motion_score": 0.072,
+      "visual_score": 0.389
+    },
+    {
+      "time": 449.0,
+      "face_score": 0.6,
+      "motion_score": 0.471,
+      "visual_score": 0.549
+    },
+    {
+      "time": 450.0,
+      "face_score": 0.6,
+      "motion_score": 0.421,
+      "visual_score": 0.528
+    },
+    {
+      "time": 451.0,
+      "face_score": 0.0,
+      "motion_score": 0.46,
+      "visual_score": 0.11
+    },
+    {
+      "time": 452.0,
+      "face_score": 0.6,
+      "motion_score": 0.36,
+      "visual_score": 0.504
+    },
+    {
+      "time": 453.0,
+      "face_score": 0.6,
+      "motion_score": 0.404,
+      "visual_score": 0.522
+    },
+    {
+      "time": 454.0,
+      "face_score": 0.6,
+      "motion_score": 0.707,
+      "visual_score": 0.643
+    },
+    {
+      "time": 455.0,
+      "face_score": 0.6,
+      "motion_score": 0.759,
+      "visual_score": 0.664
+    },
+    {
+      "time": 456.0,
+      "face_score": 0.6,
+      "motion_score": 0.402,
+      "visual_score": 0.521
+    },
+    {
+      "time": 457.0,
+      "face_score": 0.6,
+      "motion_score": 0.705,
+      "visual_score": 0.642
+    },
+    {
+      "time": 458.0,
+      "face_score": 0.6,
+      "motion_score": 0.611,
+      "visual_score": 0.604
+    },
+    {
+      "time": 459.0,
+      "face_score": 0.6,
+      "motion_score": 0.617,
+      "visual_score": 0.607
+    },
+    {
+      "time": 460.0,
+      "face_score": 0.6,
+      "motion_score": 0.56,
+      "visual_score": 0.584
+    },
+    {
+      "time": 461.0,
+      "face_score": 0.6,
+      "motion_score": 0.522,
+      "visual_score": 0.569
+    },
+    {
+      "time": 462.0,
+      "face_score": 0.6,
+      "motion_score": 0.595,
+      "visual_score": 0.598
+    },
+    {
+      "time": 463.0,
+      "face_score": 0.6,
+      "motion_score": 0.513,
+      "visual_score": 0.565
+    },
+    {
+      "time": 464.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 465.0,
+      "face_score": 0.6,
+      "motion_score": 0.121,
+      "visual_score": 0.408
+    },
+    {
+      "time": 466.0,
+      "face_score": 0.6,
+      "motion_score": 0.567,
+      "visual_score": 0.587
+    },
+    {
+      "time": 467.0,
+      "face_score": 0.6,
+      "motion_score": 0.276,
+      "visual_score": 0.471
+    },
+    {
+      "time": 468.0,
+      "face_score": 0.6,
+      "motion_score": 0.115,
+      "visual_score": 0.406
+    },
+    {
+      "time": 469.0,
+      "face_score": 0.6,
+      "motion_score": 0.094,
+      "visual_score": 0.398
+    },
+    {
+      "time": 470.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 471.0,
+      "face_score": 0.6,
+      "motion_score": 0.785,
+      "visual_score": 0.674
+    },
+    {
+      "time": 472.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 473.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 474.0,
+      "face_score": 0.6,
+      "motion_score": 0.666,
+      "visual_score": 0.627
+    },
+    {
+      "time": 475.0,
+      "face_score": 0.6,
+      "motion_score": 0.621,
+      "visual_score": 0.608
+    },
+    {
+      "time": 476.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 477.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 478.0,
+      "face_score": 0.6,
+      "motion_score": 0.207,
+      "visual_score": 0.443
+    },
+    {
+      "time": 479.0,
+      "face_score": 0.6,
+      "motion_score": 0.093,
+      "visual_score": 0.397
+    },
+    {
+      "time": 480.0,
+      "face_score": 0.6,
+      "motion_score": 0.063,
+      "visual_score": 0.385
+    },
+    {
+      "time": 481.0,
+      "face_score": 0.6,
+      "motion_score": 0.152,
+      "visual_score": 0.421
+    },
+    {
+      "time": 482.0,
+      "face_score": 0.6,
+      "motion_score": 0.077,
+      "visual_score": 0.391
+    },
+    {
+      "time": 483.0,
+      "face_score": 0.6,
+      "motion_score": 0.061,
+      "visual_score": 0.385
+    },
+    {
+      "time": 484.0,
+      "face_score": 0.6,
+      "motion_score": 0.137,
+      "visual_score": 0.415
+    },
+    {
+      "time": 485.0,
+      "face_score": 0.6,
+      "motion_score": 0.071,
+      "visual_score": 0.388
+    },
+    {
+      "time": 486.0,
+      "face_score": 0.0,
+      "motion_score": 0.794,
+      "visual_score": 0.191
+    },
+    {
+      "time": 487.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 488.0,
+      "face_score": 0.6,
+      "motion_score": 0.873,
+      "visual_score": 0.709
+    },
+    {
+      "time": 489.0,
+      "face_score": 0.6,
+      "motion_score": 0.92,
+      "visual_score": 0.728
+    },
+    {
+      "time": 490.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 491.0,
+      "face_score": 0.6,
+      "motion_score": 0.719,
+      "visual_score": 0.648
+    },
+    {
+      "time": 492.0,
+      "face_score": 0.6,
+      "motion_score": 0.828,
+      "visual_score": 0.691
+    },
+    {
+      "time": 493.0,
+      "face_score": 0.6,
+      "motion_score": 0.262,
+      "visual_score": 0.465
+    },
+    {
+      "time": 494.0,
+      "face_score": 0.6,
+      "motion_score": 0.115,
+      "visual_score": 0.406
+    },
+    {
+      "time": 495.0,
+      "face_score": 0.6,
+      "motion_score": 0.138,
+      "visual_score": 0.415
+    },
+    {
+      "time": 496.0,
+      "face_score": 0.6,
+      "motion_score": 0.521,
+      "visual_score": 0.568
+    },
+    {
+      "time": 497.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 498.0,
+      "face_score": 0.0,
+      "motion_score": 0.58,
+      "visual_score": 0.139
+    },
+    {
+      "time": 499.0,
+      "face_score": 0.0,
+      "motion_score": 1.0,
+      "visual_score": 0.24
+    },
+    {
+      "time": 500.0,
+      "face_score": 0.6,
+      "motion_score": 0.44,
+      "visual_score": 0.536
+    },
+    {
+      "time": 501.0,
+      "face_score": 0.6,
+      "motion_score": 0.625,
+      "visual_score": 0.61
+    },
+    {
+      "time": 502.0,
+      "face_score": 0.6,
+      "motion_score": 0.421,
+      "visual_score": 0.528
+    },
+    {
+      "time": 503.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 504.0,
+      "face_score": 0.6,
+      "motion_score": 0.195,
+      "visual_score": 0.438
+    },
+    {
+      "time": 505.0,
+      "face_score": 0.6,
+      "motion_score": 0.118,
+      "visual_score": 0.407
+    },
+    {
+      "time": 506.0,
+      "face_score": 0.6,
+      "motion_score": 0.06,
+      "visual_score": 0.384
+    },
+    {
+      "time": 507.0,
+      "face_score": 0.6,
+      "motion_score": 0.059,
+      "visual_score": 0.384
+    },
+    {
+      "time": 508.0,
+      "face_score": 0.6,
+      "motion_score": 0.037,
+      "visual_score": 0.375
+    },
+    {
+      "time": 509.0,
+      "face_score": 0.6,
+      "motion_score": 0.042,
+      "visual_score": 0.377
+    },
+    {
+      "time": 510.0,
+      "face_score": 0.6,
+      "motion_score": 0.061,
+      "visual_score": 0.384
+    },
+    {
+      "time": 511.0,
+      "face_score": 0.6,
+      "motion_score": 0.069,
+      "visual_score": 0.388
+    },
+    {
+      "time": 512.0,
+      "face_score": 0.6,
+      "motion_score": 0.065,
+      "visual_score": 0.386
+    },
+    {
+      "time": 513.0,
+      "face_score": 0.6,
+      "motion_score": 0.064,
+      "visual_score": 0.385
+    },
+    {
+      "time": 514.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 515.0,
+      "face_score": 0.0,
+      "motion_score": 0.032,
+      "visual_score": 0.008
+    },
+    {
+      "time": 516.0,
+      "face_score": 0.0,
+      "motion_score": 0.062,
+      "visual_score": 0.015
+    },
+    {
+      "time": 517.0,
+      "face_score": 0.6,
+      "motion_score": 0.064,
+      "visual_score": 0.385
+    },
+    {
+      "time": 518.0,
+      "face_score": 0.6,
+      "motion_score": 0.079,
+      "visual_score": 0.392
+    },
+    {
+      "time": 519.0,
+      "face_score": 0.0,
+      "motion_score": 0.056,
+      "visual_score": 0.014
+    },
+    {
+      "time": 520.0,
+      "face_score": 0.6,
+      "motion_score": 0.084,
+      "visual_score": 0.394
+    },
+    {
+      "time": 521.0,
+      "face_score": 0.6,
+      "motion_score": 0.089,
+      "visual_score": 0.396
+    },
+    {
+      "time": 522.0,
+      "face_score": 0.6,
+      "motion_score": 0.068,
+      "visual_score": 0.387
+    },
+    {
+      "time": 523.0,
+      "face_score": 0.6,
+      "motion_score": 0.068,
+      "visual_score": 0.387
+    },
+    {
+      "time": 524.0,
+      "face_score": 0.0,
+      "motion_score": 0.068,
+      "visual_score": 0.016
+    },
+    {
+      "time": 525.0,
+      "face_score": 0.6,
+      "motion_score": 0.098,
+      "visual_score": 0.399
+    },
+    {
+      "time": 526.0,
+      "face_score": 0.6,
+      "motion_score": 0.177,
+      "visual_score": 0.431
+    },
+    {
+      "time": 527.0,
+      "face_score": 0.6,
+      "motion_score": 0.403,
+      "visual_score": 0.521
+    },
+    {
+      "time": 528.0,
+      "face_score": 0.6,
+      "motion_score": 0.323,
+      "visual_score": 0.489
+    },
+    {
+      "time": 529.0,
+      "face_score": 0.6,
+      "motion_score": 0.252,
+      "visual_score": 0.461
+    },
+    {
+      "time": 530.0,
+      "face_score": 0.6,
+      "motion_score": 0.162,
+      "visual_score": 0.425
+    },
+    {
+      "time": 531.0,
+      "face_score": 0.6,
+      "motion_score": 0.21,
+      "visual_score": 0.444
+    },
+    {
+      "time": 532.0,
+      "face_score": 0.6,
+      "motion_score": 0.458,
+      "visual_score": 0.543
+    },
+    {
+      "time": 533.0,
+      "face_score": 0.0,
+      "motion_score": 0.59,
+      "visual_score": 0.142
+    },
+    {
+      "time": 534.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 535.0,
+      "face_score": 0.6,
+      "motion_score": 0.058,
+      "visual_score": 0.383
+    },
+    {
+      "time": 536.0,
+      "face_score": 0.6,
+      "motion_score": 0.05,
+      "visual_score": 0.38
+    },
+    {
+      "time": 537.0,
+      "face_score": 0.6,
+      "motion_score": 0.093,
+      "visual_score": 0.397
+    },
+    {
+      "time": 538.0,
+      "face_score": 0.6,
+      "motion_score": 0.082,
+      "visual_score": 0.393
+    },
+    {
+      "time": 539.0,
+      "face_score": 0.6,
+      "motion_score": 0.085,
+      "visual_score": 0.394
+    },
+    {
+      "time": 540.0,
+      "face_score": 0.6,
+      "motion_score": 0.123,
+      "visual_score": 0.409
+    },
+    {
+      "time": 541.0,
+      "face_score": 0.6,
+      "motion_score": 0.119,
+      "visual_score": 0.407
+    },
+    {
+      "time": 542.0,
+      "face_score": 0.6,
+      "motion_score": 0.152,
+      "visual_score": 0.421
+    },
+    {
+      "time": 543.0,
+      "face_score": 0.6,
+      "motion_score": 0.626,
+      "visual_score": 0.61
+    },
+    {
+      "time": 544.0,
+      "face_score": 0.6,
+      "motion_score": 0.342,
+      "visual_score": 0.497
+    },
+    {
+      "time": 545.0,
+      "face_score": 0.6,
+      "motion_score": 0.658,
+      "visual_score": 0.623
+    },
+    {
+      "time": 546.0,
+      "face_score": 0.6,
+      "motion_score": 0.145,
+      "visual_score": 0.418
+    },
+    {
+      "time": 547.0,
+      "face_score": 0.0,
+      "motion_score": 0.075,
+      "visual_score": 0.018
+    },
+    {
+      "time": 548.0,
+      "face_score": 0.6,
+      "motion_score": 0.182,
+      "visual_score": 0.433
+    },
+    {
+      "time": 549.0,
+      "face_score": 0.6,
+      "motion_score": 0.065,
+      "visual_score": 0.386
+    },
+    {
+      "time": 550.0,
+      "face_score": 0.6,
+      "motion_score": 0.064,
+      "visual_score": 0.385
+    },
+    {
+      "time": 551.0,
+      "face_score": 0.6,
+      "motion_score": 0.175,
+      "visual_score": 0.43
+    },
+    {
+      "time": 552.0,
+      "face_score": 0.6,
+      "motion_score": 0.149,
+      "visual_score": 0.42
+    },
+    {
+      "time": 553.0,
+      "face_score": 0.6,
+      "motion_score": 0.116,
+      "visual_score": 0.406
+    },
+    {
+      "time": 554.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 555.0,
+      "face_score": 0.6,
+      "motion_score": 0.22,
+      "visual_score": 0.448
+    },
+    {
+      "time": 556.0,
+      "face_score": 0.6,
+      "motion_score": 0.13,
+      "visual_score": 0.412
+    },
+    {
+      "time": 557.0,
+      "face_score": 0.6,
+      "motion_score": 0.161,
+      "visual_score": 0.424
+    },
+    {
+      "time": 558.0,
+      "face_score": 0.6,
+      "motion_score": 0.151,
+      "visual_score": 0.42
+    },
+    {
+      "time": 559.0,
+      "face_score": 0.6,
+      "motion_score": 0.223,
+      "visual_score": 0.449
+    },
+    {
+      "time": 560.0,
+      "face_score": 0.6,
+      "motion_score": 0.56,
+      "visual_score": 0.584
+    },
+    {
+      "time": 561.0,
+      "face_score": 0.0,
+      "motion_score": 1.0,
+      "visual_score": 0.24
+    },
+    {
+      "time": 562.0,
+      "face_score": 0.6,
+      "motion_score": 0.736,
+      "visual_score": 0.654
+    },
+    {
+      "time": 563.0,
+      "face_score": 0.6,
+      "motion_score": 0.718,
+      "visual_score": 0.647
+    },
+    {
+      "time": 564.0,
+      "face_score": 0.6,
+      "motion_score": 0.906,
+      "visual_score": 0.722
+    },
+    {
+      "time": 565.0,
+      "face_score": 0.6,
+      "motion_score": 0.366,
+      "visual_score": 0.507
+    },
+    {
+      "time": 566.0,
+      "face_score": 0.6,
+      "motion_score": 0.523,
+      "visual_score": 0.569
+    },
+    {
+      "time": 567.0,
+      "face_score": 0.6,
+      "motion_score": 0.671,
+      "visual_score": 0.628
+    },
+    {
+      "time": 568.0,
+      "face_score": 0.6,
+      "motion_score": 0.555,
+      "visual_score": 0.582
+    },
+    {
+      "time": 569.0,
+      "face_score": 0.6,
+      "motion_score": 0.438,
+      "visual_score": 0.535
+    },
+    {
+      "time": 570.0,
+      "face_score": 0.6,
+      "motion_score": 0.377,
+      "visual_score": 0.511
+    },
+    {
+      "time": 571.0,
+      "face_score": 0.6,
+      "motion_score": 0.946,
+      "visual_score": 0.738
+    },
+    {
+      "time": 572.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 573.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 574.0,
+      "face_score": 0.6,
+      "motion_score": 0.21,
+      "visual_score": 0.444
+    },
+    {
+      "time": 575.0,
+      "face_score": 0.6,
+      "motion_score": 0.203,
+      "visual_score": 0.441
+    },
+    {
+      "time": 576.0,
+      "face_score": 0.6,
+      "motion_score": 0.193,
+      "visual_score": 0.437
+    },
+    {
+      "time": 577.0,
+      "face_score": 0.6,
+      "motion_score": 0.282,
+      "visual_score": 0.473
+    },
+    {
+      "time": 578.0,
+      "face_score": 0.6,
+      "motion_score": 0.181,
+      "visual_score": 0.432
+    },
+    {
+      "time": 579.0,
+      "face_score": 0.6,
+      "motion_score": 0.449,
+      "visual_score": 0.539
+    },
+    {
+      "time": 580.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 581.0,
+      "face_score": 0.6,
+      "motion_score": 0.851,
+      "visual_score": 0.7
+    },
+    {
+      "time": 582.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 583.0,
+      "face_score": 0.6,
+      "motion_score": 0.167,
+      "visual_score": 0.427
+    },
+    {
+      "time": 584.0,
+      "face_score": 0.6,
+      "motion_score": 0.756,
+      "visual_score": 0.662
+    },
+    {
+      "time": 585.0,
+      "face_score": 0.6,
+      "motion_score": 0.424,
+      "visual_score": 0.53
+    },
+    {
+      "time": 586.0,
+      "face_score": 0.6,
+      "motion_score": 0.241,
+      "visual_score": 0.456
+    },
+    {
+      "time": 587.0,
+      "face_score": 0.6,
+      "motion_score": 0.565,
+      "visual_score": 0.586
+    },
+    {
+      "time": 588.0,
+      "face_score": 0.6,
+      "motion_score": 0.544,
+      "visual_score": 0.578
+    },
+    {
+      "time": 589.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 590.0,
+      "face_score": 0.6,
+      "motion_score": 0.849,
+      "visual_score": 0.7
+    },
+    {
+      "time": 591.0,
+      "face_score": 0.6,
+      "motion_score": 0.558,
+      "visual_score": 0.583
+    },
+    {
+      "time": 592.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 593.0,
+      "face_score": 0.6,
+      "motion_score": 0.867,
+      "visual_score": 0.707
+    },
+    {
+      "time": 594.0,
+      "face_score": 0.6,
+      "motion_score": 0.641,
+      "visual_score": 0.617
+    },
+    {
+      "time": 595.0,
+      "face_score": 0.6,
+      "motion_score": 0.308,
+      "visual_score": 0.483
+    },
+    {
+      "time": 596.0,
+      "face_score": 0.6,
+      "motion_score": 0.3,
+      "visual_score": 0.48
+    },
+    {
+      "time": 597.0,
+      "face_score": 0.6,
+      "motion_score": 0.239,
+      "visual_score": 0.456
+    },
+    {
+      "time": 598.0,
+      "face_score": 0.6,
+      "motion_score": 0.582,
+      "visual_score": 0.593
+    },
+    {
+      "time": 599.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 600.0,
+      "face_score": 0.6,
+      "motion_score": 0.228,
+      "visual_score": 0.451
+    },
+    {
+      "time": 601.0,
+      "face_score": 0.6,
+      "motion_score": 0.256,
+      "visual_score": 0.462
+    },
+    {
+      "time": 602.0,
+      "face_score": 0.6,
+      "motion_score": 0.153,
+      "visual_score": 0.421
+    },
+    {
+      "time": 603.0,
+      "face_score": 0.6,
+      "motion_score": 0.806,
+      "visual_score": 0.682
+    },
+    {
+      "time": 604.0,
+      "face_score": 0.6,
+      "motion_score": 0.382,
+      "visual_score": 0.513
+    },
+    {
+      "time": 605.0,
+      "face_score": 0.6,
+      "motion_score": 0.626,
+      "visual_score": 0.611
+    },
+    {
+      "time": 606.0,
+      "face_score": 0.6,
+      "motion_score": 0.548,
+      "visual_score": 0.579
+    },
+    {
+      "time": 607.0,
+      "face_score": 0.6,
+      "motion_score": 0.252,
+      "visual_score": 0.461
+    },
+    {
+      "time": 608.0,
+      "face_score": 0.6,
+      "motion_score": 0.295,
+      "visual_score": 0.478
+    },
+    {
+      "time": 609.0,
+      "face_score": 0.6,
+      "motion_score": 0.086,
+      "visual_score": 0.394
+    },
+    {
+      "time": 610.0,
+      "face_score": 0.6,
+      "motion_score": 0.041,
+      "visual_score": 0.377
+    },
+    {
+      "time": 611.0,
+      "face_score": 0.6,
+      "motion_score": 0.012,
+      "visual_score": 0.365
+    },
+    {
+      "time": 612.0,
+      "face_score": 0.6,
+      "motion_score": 0.017,
+      "visual_score": 0.367
+    },
+    {
+      "time": 613.0,
+      "face_score": 0.6,
+      "motion_score": 0.017,
+      "visual_score": 0.367
+    },
+    {
+      "time": 614.0,
+      "face_score": 0.6,
+      "motion_score": 0.14,
+      "visual_score": 0.416
+    },
+    {
+      "time": 615.0,
+      "face_score": 0.6,
+      "motion_score": 0.142,
+      "visual_score": 0.417
+    },
+    {
+      "time": 616.0,
+      "face_score": 0.6,
+      "motion_score": 0.607,
+      "visual_score": 0.603
+    },
+    {
+      "time": 617.0,
+      "face_score": 0.6,
+      "motion_score": 0.597,
+      "visual_score": 0.599
+    },
+    {
+      "time": 618.0,
+      "face_score": 0.0,
+      "motion_score": 0.412,
+      "visual_score": 0.099
+    },
+    {
+      "time": 619.0,
+      "face_score": 0.6,
+      "motion_score": 0.484,
+      "visual_score": 0.554
+    },
+    {
+      "time": 620.0,
+      "face_score": 0.6,
+      "motion_score": 0.208,
+      "visual_score": 0.443
+    },
+    {
+      "time": 621.0,
+      "face_score": 0.6,
+      "motion_score": 0.707,
+      "visual_score": 0.643
+    },
+    {
+      "time": 622.0,
+      "face_score": 0.6,
+      "motion_score": 0.555,
+      "visual_score": 0.582
+    },
+    {
+      "time": 623.0,
+      "face_score": 0.6,
+      "motion_score": 0.336,
+      "visual_score": 0.495
+    },
+    {
+      "time": 624.0,
+      "face_score": 0.6,
+      "motion_score": 0.044,
+      "visual_score": 0.378
+    },
+    {
+      "time": 625.0,
+      "face_score": 0.6,
+      "motion_score": 0.048,
+      "visual_score": 0.379
+    },
+    {
+      "time": 626.0,
+      "face_score": 0.6,
+      "motion_score": 0.056,
+      "visual_score": 0.383
+    },
+    {
+      "time": 627.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 628.0,
+      "face_score": 0.6,
+      "motion_score": 0.104,
+      "visual_score": 0.401
+    },
+    {
+      "time": 629.0,
+      "face_score": 0.6,
+      "motion_score": 0.141,
+      "visual_score": 0.417
+    },
+    {
+      "time": 630.0,
+      "face_score": 0.6,
+      "motion_score": 0.102,
+      "visual_score": 0.401
+    },
+    {
+      "time": 631.0,
+      "face_score": 0.6,
+      "motion_score": 0.195,
+      "visual_score": 0.438
+    },
+    {
+      "time": 632.0,
+      "face_score": 0.6,
+      "motion_score": 0.173,
+      "visual_score": 0.429
+    },
+    {
+      "time": 633.0,
+      "face_score": 0.6,
+      "motion_score": 0.167,
+      "visual_score": 0.427
+    },
+    {
+      "time": 634.0,
+      "face_score": 0.6,
+      "motion_score": 0.165,
+      "visual_score": 0.426
+    },
+    {
+      "time": 635.0,
+      "face_score": 0.6,
+      "motion_score": 0.122,
+      "visual_score": 0.409
+    },
+    {
+      "time": 636.0,
+      "face_score": 0.6,
+      "motion_score": 0.078,
+      "visual_score": 0.391
+    },
+    {
+      "time": 637.0,
+      "face_score": 0.6,
+      "motion_score": 0.074,
+      "visual_score": 0.39
+    },
+    {
+      "time": 638.0,
+      "face_score": 0.6,
+      "motion_score": 0.128,
+      "visual_score": 0.411
+    },
+    {
+      "time": 639.0,
+      "face_score": 0.6,
+      "motion_score": 0.147,
+      "visual_score": 0.419
+    },
+    {
+      "time": 640.0,
+      "face_score": 0.6,
+      "motion_score": 0.077,
+      "visual_score": 0.391
+    },
+    {
+      "time": 641.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 642.0,
+      "face_score": 0.6,
+      "motion_score": 0.369,
+      "visual_score": 0.507
+    },
+    {
+      "time": 643.0,
+      "face_score": 0.6,
+      "motion_score": 0.751,
+      "visual_score": 0.66
+    },
+    {
+      "time": 644.0,
+      "face_score": 0.6,
+      "motion_score": 0.648,
+      "visual_score": 0.619
+    },
+    {
+      "time": 645.0,
+      "face_score": 0.6,
+      "motion_score": 0.932,
+      "visual_score": 0.733
+    },
+    {
+      "time": 646.0,
+      "face_score": 0.6,
+      "motion_score": 0.958,
+      "visual_score": 0.743
+    },
+    {
+      "time": 647.0,
+      "face_score": 0.6,
+      "motion_score": 0.748,
+      "visual_score": 0.659
+    },
+    {
+      "time": 648.0,
+      "face_score": 0.6,
+      "motion_score": 0.799,
+      "visual_score": 0.68
+    },
+    {
+      "time": 649.0,
+      "face_score": 0.6,
+      "motion_score": 0.286,
+      "visual_score": 0.474
+    },
+    {
+      "time": 650.0,
+      "face_score": 0.6,
+      "motion_score": 0.617,
+      "visual_score": 0.607
+    },
+    {
+      "time": 651.0,
+      "face_score": 0.6,
+      "motion_score": 0.161,
+      "visual_score": 0.424
+    },
+    {
+      "time": 652.0,
+      "face_score": 0.6,
+      "motion_score": 0.329,
+      "visual_score": 0.492
+    },
+    {
+      "time": 653.0,
+      "face_score": 0.6,
+      "motion_score": 0.835,
+      "visual_score": 0.694
+    },
+    {
+      "time": 654.0,
+      "face_score": 0.6,
+      "motion_score": 0.939,
+      "visual_score": 0.736
+    },
+    {
+      "time": 655.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 656.0,
+      "face_score": 0.6,
+      "motion_score": 0.867,
+      "visual_score": 0.707
+    },
+    {
+      "time": 657.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 658.0,
+      "face_score": 0.6,
+      "motion_score": 0.937,
+      "visual_score": 0.735
+    },
+    {
+      "time": 659.0,
+      "face_score": 0.6,
+      "motion_score": 0.364,
+      "visual_score": 0.506
+    },
+    {
+      "time": 660.0,
+      "face_score": 0.6,
+      "motion_score": 0.478,
+      "visual_score": 0.551
+    },
+    {
+      "time": 661.0,
+      "face_score": 0.6,
+      "motion_score": 0.686,
+      "visual_score": 0.634
+    },
+    {
+      "time": 662.0,
+      "face_score": 0.6,
+      "motion_score": 0.37,
+      "visual_score": 0.508
+    },
+    {
+      "time": 663.0,
+      "face_score": 0.6,
+      "motion_score": 0.156,
+      "visual_score": 0.422
+    },
+    {
+      "time": 664.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 665.0,
+      "face_score": 0.6,
+      "motion_score": 1.0,
+      "visual_score": 0.76
+    },
+    {
+      "time": 666.0,
+      "face_score": 0.6,
+      "motion_score": 0.363,
+      "visual_score": 0.505
+    },
+    {
+      "time": 667.0,
+      "face_score": 0.6,
+      "motion_score": 0.293,
+      "visual_score": 0.477
+    },
+    {
+      "time": 668.0,
+      "face_score": 0.6,
+      "motion_score": 0.24,
+      "visual_score": 0.456
+    },
+    {
+      "time": 669.0,
+      "face_score": 0.6,
+      "motion_score": 0.273,
+      "visual_score": 0.469
+    },
+    {
+      "time": 670.0,
+      "face_score": 0.6,
+      "motion_score": 0.358,
+      "visual_score": 0.503
+    },
+    {
+      "time": 671.0,
+      "face_score": 0.6,
+      "motion_score": 0.151,
+      "visual_score": 0.421
+    },
+    {
+      "time": 672.0,
+      "face_score": 0.6,
+      "motion_score": 0.28,
+      "visual_score": 0.472
+    },
+    {
+      "time": 673.0,
+      "face_score": 0.6,
+      "motion_score": 0.401,
+      "visual_score": 0.52
+    },
+    {
+      "time": 674.0,
+      "face_score": 0.6,
+      "motion_score": 0.31,
+      "visual_score": 0.484
+    },
+    {
+      "time": 675.0,
+      "face_score": 0.6,
+      "motion_score": 0.261,
+      "visual_score": 0.464
+    },
+    {
+      "time": 676.0,
+      "face_score": 0.6,
+      "motion_score": 0.288,
+      "visual_score": 0.475
+    },
+    {
+      "time": 677.0,
+      "face_score": 0.6,
+      "motion_score": 0.23,
+      "visual_score": 0.452
+    },
+    {
+      "time": 678.0,
+      "face_score": 0.6,
+      "motion_score": 0.163,
+      "visual_score": 0.425
+    },
+    {
+      "time": 679.0,
+      "face_score": 0.6,
+      "motion_score": 0.186,
+      "visual_score": 0.435
+    },
+    {
+      "time": 680.0,
+      "face_score": 0.6,
+      "motion_score": 0.273,
+      "visual_score": 0.469
+    },
+    {
+      "time": 681.0,
+      "face_score": 0.6,
+      "motion_score": 0.201,
+      "visual_score": 0.44
+    },
+    {
+      "time": 682.0,
+      "face_score": 0.6,
+      "motion_score": 0.206,
+      "visual_score": 0.442
+    },
+    {
+      "time": 683.0,
+      "face_score": 0.6,
+      "motion_score": 0.15,
+      "visual_score": 0.42
+    },
+    {
+      "time": 684.0,
+      "face_score": 0.6,
+      "motion_score": 0.13,
+      "visual_score": 0.412
+    },
+    {
+      "time": 685.0,
+      "face_score": 0.6,
+      "motion_score": 0.252,
+      "visual_score": 0.461
+    },
+    {
+      "time": 686.0,
+      "face_score": 0.6,
+      "motion_score": 0.237,
+      "visual_score": 0.455
+    },
+    {
+      "time": 687.0,
+      "face_score": 0.6,
+      "motion_score": 0.372,
+      "visual_score": 0.509
+    },
+    {
+      "time": 688.0,
+      "face_score": 0.6,
+      "motion_score": 0.431,
+      "visual_score": 0.532
+    },
+    {
+      "time": 689.0,
+      "face_score": 0.6,
+      "motion_score": 0.416,
+      "visual_score": 0.526
+    },
+    {
+      "time": 690.0,
+      "face_score": 0.6,
+      "motion_score": 0.29,
+      "visual_score": 0.476
+    },
+    {
+      "time": 691.0,
+      "face_score": 0.6,
+      "motion_score": 0.321,
+      "visual_score": 0.488
+    },
+    {
+      "time": 692.0,
+      "face_score": 0.6,
+      "motion_score": 0.229,
+      "visual_score": 0.452
+    },
+    {
+      "time": 693.0,
+      "face_score": 0.6,
+      "motion_score": 0.264,
+      "visual_score": 0.466
+    },
+    {
+      "time": 694.0,
+      "face_score": 0.6,
+      "motion_score": 0.232,
+      "visual_score": 0.453
+    },
+    {
+      "time": 695.0,
+      "face_score": 0.6,
+      "motion_score": 0.319,
+      "visual_score": 0.488
+    },
+    {
+      "time": 696.0,
+      "face_score": 0.6,
+      "motion_score": 0.3,
+      "visual_score": 0.48
+    },
+    {
+      "time": 697.0,
+      "face_score": 0.6,
+      "motion_score": 0.241,
+      "visual_score": 0.456
+    },
+    {
+      "time": 698.0,
+      "face_score": 0.6,
+      "motion_score": 0.181,
+      "visual_score": 0.433
+    },
+    {
+      "time": 699.0,
+      "face_score": 0.6,
+      "motion_score": 0.186,
+      "visual_score": 0.434
+    },
+    {
+      "time": 700.0,
+      "face_score": 0.6,
+      "motion_score": 0.15,
+      "visual_score": 0.42
+    },
+    {
+      "time": 701.0,
+      "face_score": 0.6,
+      "motion_score": 0.209,
+      "visual_score": 0.443
+    },
+    {
+      "time": 702.0,
+      "face_score": 0.6,
+      "motion_score": 0.222,
+      "visual_score": 0.449
+    },
+    {
+      "time": 703.0,
+      "face_score": 0.6,
+      "motion_score": 0.164,
+      "visual_score": 0.425
+    },
+    {
+      "time": 704.0,
+      "face_score": 0.6,
+      "motion_score": 0.133,
+      "visual_score": 0.413
+    },
+    {
+      "time": 705.0,
+      "face_score": 0.6,
+      "motion_score": 0.15,
+      "visual_score": 0.42
+    },
+    {
+      "time": 706.0,
+      "face_score": 0.6,
+      "motion_score": 0.115,
+      "visual_score": 0.406
+    },
+    {
+      "time": 707.0,
+      "face_score": 0.6,
+      "motion_score": 0.249,
+      "visual_score": 0.46
+    },
+    {
+      "time": 708.0,
+      "face_score": 0.6,
+      "motion_score": 0.241,
+      "visual_score": 0.456
+    },
+    {
+      "time": 709.0,
+      "face_score": 0.6,
+      "motion_score": 0.242,
+      "visual_score": 0.457
+    },
+    {
+      "time": 710.0,
+      "face_score": 0.6,
+      "motion_score": 0.237,
+      "visual_score": 0.455
+    },
+    {
+      "time": 711.0,
+      "face_score": 0.6,
+      "motion_score": 0.278,
+      "visual_score": 0.471
+    },
+    {
+      "time": 712.0,
+      "face_score": 0.6,
+      "motion_score": 0.165,
+      "visual_score": 0.426
+    },
+    {
+      "time": 713.0,
+      "face_score": 0.6,
+      "motion_score": 0.304,
+      "visual_score": 0.482
+    },
+    {
+      "time": 714.0,
+      "face_score": 0.6,
+      "motion_score": 0.168,
+      "visual_score": 0.427
+    },
+    {
+      "time": 715.0,
+      "face_score": 0.6,
+      "motion_score": 0.079,
+      "visual_score": 0.392
+    },
+    {
+      "time": 716.0,
+      "face_score": 0.6,
+      "motion_score": 0.188,
+      "visual_score": 0.435
+    },
+    {
+      "time": 717.0,
+      "face_score": 0.6,
+      "motion_score": 0.209,
+      "visual_score": 0.444
+    },
+    {
+      "time": 718.0,
+      "face_score": 0.6,
+      "motion_score": 0.189,
+      "visual_score": 0.435
+    },
+    {
+      "time": 719.0,
+      "face_score": 0.6,
+      "motion_score": 0.262,
+      "visual_score": 0.465
+    },
+    {
+      "time": 720.0,
+      "face_score": 0.6,
+      "motion_score": 0.294,
+      "visual_score": 0.478
+    },
+    {
+      "time": 721.0,
+      "face_score": 0.6,
+      "motion_score": 0.174,
+      "visual_score": 0.43
+    },
+    {
+      "time": 722.0,
+      "face_score": 0.6,
+      "motion_score": 0.237,
+      "visual_score": 0.455
+    },
+    {
+      "time": 723.0,
+      "face_score": 0.6,
+      "motion_score": 0.306,
+      "visual_score": 0.483
+    },
+    {
+      "time": 724.0,
+      "face_score": 0.6,
+      "motion_score": 0.285,
+      "visual_score": 0.474
+    },
+    {
+      "time": 725.0,
+      "face_score": 0.6,
+      "motion_score": 0.327,
+      "visual_score": 0.491
+    },
+    {
+      "time": 726.0,
+      "face_score": 0.6,
+      "motion_score": 0.337,
+      "visual_score": 0.495
+    },
+    {
+      "time": 727.0,
+      "face_score": 0.6,
+      "motion_score": 0.267,
+      "visual_score": 0.467
+    },
+    {
+      "time": 728.0,
+      "face_score": 0.6,
+      "motion_score": 0.253,
+      "visual_score": 0.461
+    },
+    {
+      "time": 729.0,
+      "face_score": 0.6,
+      "motion_score": 0.286,
+      "visual_score": 0.474
+    },
+    {
+      "time": 730.0,
+      "face_score": 0.6,
+      "motion_score": 0.185,
+      "visual_score": 0.434
+    },
+    {
+      "time": 731.0,
+      "face_score": 0.6,
+      "motion_score": 0.356,
+      "visual_score": 0.502
+    },
+    {
+      "time": 732.0,
+      "face_score": 0.6,
+      "motion_score": 0.222,
+      "visual_score": 0.449
+    }
+  ],
+  "events": [
+    {
+      "time": 1.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 2.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.21687560412553472
+    },
+    {
+      "time": 6.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4775429186204343
+    },
+    {
+      "time": 12.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.40821565739141163
+    },
+    {
+      "time": 15.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.7721678723469891
+    },
+    {
+      "time": 19.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8530117585965779
+    },
+    {
+      "time": 23.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.42509678862290223
+    },
+    {
+      "time": 24.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 25.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 33.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8775482529203685
+    },
+    {
+      "time": 36.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.19772964482560051
+    },
+    {
+      "time": 41.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2773569250781507
+    },
+    {
+      "time": 42.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3385214220343864
+    },
+    {
+      "time": 43.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.16024494076999007
+    },
+    {
+      "time": 73.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9442051507486016
+    },
+    {
+      "time": 75.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2038396676538335
+    },
+    {
+      "time": 84.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 84.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2960064088721619
+    },
+    {
+      "time": 85.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 89.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 92.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 94.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 95.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 100.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.16076744508884505
+    },
+    {
+      "time": 101.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3315412013614676
+    },
+    {
+      "time": 104.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5615372552648898
+    },
+    {
+      "time": 105.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 106.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 111.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.986327482313261
+    },
+    {
+      "time": 128.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9186744200394866
+    },
+    {
+      "time": 132.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.16939230112701548
+    },
+    {
+      "time": 133.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.276946248251892
+    },
+    {
+      "time": 139.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5608556859781177
+    },
+    {
+      "time": 141.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.23404626573297133
+    },
+    {
+      "time": 144.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5260927602624219
+    },
+    {
+      "time": 146.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.49905267974662715
+    },
+    {
+      "time": 148.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2928013301044752
+    },
+    {
+      "time": 149.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.43582194492431725
+    },
+    {
+      "time": 152.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3293178265876934
+    },
+    {
+      "time": 157.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5899787142152024
+    },
+    {
+      "time": 159.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.6234732976513656
+    },
+    {
+      "time": 164.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8573167957181639
+    },
+    {
+      "time": 167.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5378812417736099
+    },
+    {
+      "time": 171.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.415874233917407
+    },
+    {
+      "time": 174.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.6743094973675551
+    },
+    {
+      "time": 179.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.17196401211335965
+    },
+    {
+      "time": 181.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 182.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 182.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3047138501563014
+    },
+    {
+      "time": 183.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3207366732477789
+    },
+    {
+      "time": 186.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5178631565687727
+    },
+    {
+      "time": 190.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4566967315523199
+    },
+    {
+      "time": 195.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.24508151838598224
+    },
+    {
+      "time": 197.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5753193510406384
+    },
+    {
+      "time": 210.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.6284451222647253
+    },
+    {
+      "time": 213.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3318429427854557
+    },
+    {
+      "time": 215.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.19310744179828887
+    },
+    {
+      "time": 219.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3182131637668641
+    },
+    {
+      "time": 220.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.23776935001233956
+    },
+    {
+      "time": 223.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1602031661319513
+    },
+    {
+      "time": 226.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.21365253012915436
+    },
+    {
+      "time": 229.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.7049409113812108
+    },
+    {
+      "time": 241.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2978213562232642
+    },
+    {
+      "time": 243.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8212260791995722
+    },
+    {
+      "time": 245.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.29517734297877596
+    },
+    {
+      "time": 247.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 248.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 253.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 254.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 254.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.22595419700148073
+    },
+    {
+      "time": 259.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1792501516740704
+    },
+    {
+      "time": 260.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.516503874115663
+    },
+    {
+      "time": 267.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.30806224806679827
+    },
+    {
+      "time": 269.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.39823151890013164
+    },
+    {
+      "time": 274.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.780819078541461
+    },
+    {
+      "time": 277.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1977376784098388
+    },
+    {
+      "time": 285.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5656202441181309
+    },
+    {
+      "time": 287.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4201856979063837
+    },
+    {
+      "time": 293.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4785872845714051
+    },
+    {
+      "time": 296.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5352626146553142
+    },
+    {
+      "time": 297.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.22937296910990457
+    },
+    {
+      "time": 300.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.31971447998930574
+    },
+    {
+      "time": 301.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2436425427772293
+    },
+    {
+      "time": 307.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8296517023486344
+    },
+    {
+      "time": 313.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1709903417036854
+    },
+    {
+      "time": 315.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.18108180888038827
+    },
+    {
+      "time": 317.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.23114903391329383
+    },
+    {
+      "time": 319.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2497840572556762
+    },
+    {
+      "time": 321.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5793563877920369
+    },
+    {
+      "time": 330.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 331.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 334.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9587584706112208
+    },
+    {
+      "time": 340.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.388802983094768
+    },
+    {
+      "time": 351.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.28782500668394206
+    },
+    {
+      "time": 352.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.24641573605626854
+    },
+    {
+      "time": 355.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5601429463845016
+    },
+    {
+      "time": 357.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.23644862876357353
+    },
+    {
+      "time": 360.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.29167470025090486
+    },
+    {
+      "time": 361.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2317910779656137
+    },
+    {
+      "time": 373.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 374.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 390.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9611720806597565
+    },
+    {
+      "time": 393.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3036714122655479
+    },
+    {
+      "time": 395.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 397.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 404.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8026116218328397
+    },
+    {
+      "time": 413.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.934073836994077
+    },
+    {
+      "time": 416.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4983871776283316
+    },
+    {
+      "time": 422.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.20847086829549188
+    },
+    {
+      "time": 428.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4450457850032905
+    },
+    {
+      "time": 437.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.7369701690523198
+    },
+    {
+      "time": 440.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8215458158522541
+    },
+    {
+      "time": 449.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3996560340572557
+    },
+    {
+      "time": 451.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 452.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 454.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.30266046602500823
+    },
+    {
+      "time": 457.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3033471768056926
+    },
+    {
+      "time": 464.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4869213248601514
+    },
+    {
+      "time": 466.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.44615249156795
+    },
+    {
+      "time": 470.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9061240333991445
+    },
+    {
+      "time": 472.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.214996066757157
+    },
+    {
+      "time": 476.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3793641643015795
+    },
+    {
+      "time": 486.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 486.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.722776432420204
+    },
+    {
+      "time": 487.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 487.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.20617744066716026
+    },
+    {
+      "time": 496.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3827794016329385
+    },
+    {
+      "time": 497.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.47878812417736094
+    },
+    {
+      "time": 498.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 499.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4199360141082593
+    },
+    {
+      "time": 500.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 501.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.18545818423000987
+    },
+    {
+      "time": 503.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5788881905026324
+    },
+    {
+      "time": 514.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9363826891041461
+    },
+    {
+      "time": 515.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 517.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 519.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 520.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 524.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 525.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 527.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.22570451320335636
+    },
+    {
+      "time": 532.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2470555307050016
+    },
+    {
+      "time": 533.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 534.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 534.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4102809312273774
+    },
+    {
+      "time": 543.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4745640655848963
+    },
+    {
+      "time": 545.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3165601734740046
+    },
+    {
+      "time": 547.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 548.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 554.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8844998740333991
+    },
+    {
+      "time": 560.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.33754678759460355
+    },
+    {
+      "time": 561.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 561.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.43995281393961827
+    },
+    {
+      "time": 562.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 564.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.18706618645113526
+    },
+    {
+      "time": 566.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1568187777640671
+    },
+    {
+      "time": 571.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5691238508761105
+    },
+    {
+      "time": 579.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2675716981326094
+    },
+    {
+      "time": 580.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5514750303348142
+    },
+    {
+      "time": 584.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5887720698626193
+    },
+    {
+      "time": 587.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3242875174810793
+    },
+    {
+      "time": 589.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.45594768015794673
+    },
+    {
+      "time": 592.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4418548453438631
+    },
+    {
+      "time": 598.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.3433855966189536
+    },
+    {
+      "time": 599.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.4177174594850279
+    },
+    {
+      "time": 603.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.6532962117472852
+    },
+    {
+      "time": 605.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.24395167509871668
+    },
+    {
+      "time": 616.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.46542024000493587
+    },
+    {
+      "time": 618.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 619.0,
+      "event": "FACE_CHANGE",
+      "strength": 0.6
+    },
+    {
+      "time": 621.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.49936116938137554
+    },
+    {
+      "time": 627.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9435814232683448
+    },
+    {
+      "time": 641.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.9227442338145772
+    },
+    {
+      "time": 643.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.38212643190605455
+    },
+    {
+      "time": 645.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2834177823708457
+    },
+    {
+      "time": 650.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.33064850948091473
+    },
+    {
+      "time": 652.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.1683922805610398
+    },
+    {
+      "time": 653.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.5061402291049687
+    },
+    {
+      "time": 661.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.2072140943772623
+    },
+    {
+      "time": 664.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.8444566340695953
+    },
+    {
+      "time": 731.0,
+      "event": "MOTION_SPIKE",
+      "strength": 0.17044502200559394
+    }
+  ]
+}
