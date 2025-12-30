@@ -143,7 +143,8 @@ This makes the system ideal for:
 | Fully local      | ✅             | ❌         |
 | Open-source      | ✅             | ❌         |
 | Custom scoring   | ✅             | ❌         |
-| Hinglish support | ✅             | ❌         |
+| Hinglish(Hindi+
+  English) support | ✅             | ❌         |
 | Debuggable       | ✅             | ❌         |
 
 ---
@@ -167,6 +168,23 @@ This makes the system ideal for:
 * Web UI / API layer
 
 ---
+⚠️ IMPORTANT INSTALL NOTES
+FFmpeg (required, system-level)
+sudo apt install ffmpeg
+
+
+or on Fedora:
+
+sudo dnf install ffmpeg
+
+GPU Support (Optional, Recommended)
+
+For NVIDIA GPUs:
+
+pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+
+If not using GPU, CPU torch works fine.
 
 ## ⚠️ Disclaimer
 
