@@ -7,4 +7,6 @@ text_analysis
 visual_analysis
 clip_selector
 video_renderer
-u can run ru_pipeline but beware , the link is hardcoded in file video_ingestion
+You can run ru_pipeline but beware , the link is hardcoded in file video_ingestion
+Rest file will be used for V2
+
