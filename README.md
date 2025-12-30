@@ -1,15 +1,11 @@
-##video-clipper
-(subtitle: Vizard AI–style automatic short-form clip generator)
+
+## 🎬 video-clipper (Vizard AI Replica **Automatic Short-form Clip Generator**)
 > **video-clipper** is an end-to-end, fully local system that automatically converts long-form videos (YouTube videos, podcasts, stand-up comedy, streams) into short-form vertical clips optimized for TikTok, Instagram Reels, and YouTube Shorts — without relying on any external SaaS tools.
 It replicates the **core functionality of Vizard AI**, but is:
 * **fully open-source**
 * **modular**
 * **transparent**
 * **tunable by design**
-
-
-## 🎬 video-clipper (Vizard AI Replica)
-
 **video-clipper** is a multimodal video understanding pipeline that automatically:
 
 * analyzes long-form videos,
