@@ -1,0 +1,24 @@
+# YouTube URL in, vertical shorts out (written to ./pipeline_data/shorts).
+#   VIDEO_URL="https://www.youtube.com/watch?v=..." docker compose up --build clipper
+# Web UI (Clipper Studio) on http://localhost:8503:
+#   docker compose up --build ui
+# Models (Whisper large-v3, Qwen2.5-1.5B, MiniLM) download on first run into the `models` volume.
+# Add `-f docker-compose.gpu.yml` for an NVIDIA GPU.
+services:
+  clipper:
+    build: .
+    command: ["--url", "${VIDEO_URL:?set VIDEO_URL}"]
+    volumes:
+      - ./pipeline_data:/app/pipeline_data
+      - models:/models
+  ui:
+    build: .
+    entrypoint: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    ports:
+      - "8503:8501"
+    volumes:
+      - ./projects:/app/projects
+      - ./pipeline_data:/app/pipeline_data
+      - models:/models
+volumes:
+  models:

@@ -213,9 +213,17 @@ class TextAnalyzer:
         print(f"💾 Semantic analysis saved to: {output_path}")
 
 if __name__ == "__main__":
-    analyzer = TextAnalyzer("pipeline_data")
+    import argparse
+    import sys
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workspace", default="pipeline_data")
+    args = parser.parse_args()
+
+    analyzer = TextAnalyzer(args.workspace)
     try:
         results = analyzer.analyze_semantics()
         analyzer.save_results(results)
     except Exception as e:
         print(f"❌ Error: {e}")
+        sys.exit(1)

@@ -55,12 +55,13 @@ def _iter_nvidia_package_lib_dirs() -> Iterable[str]:
     try:
         import nvidia  # type: ignore
 
-        nvidia_root = os.path.dirname(nvidia.__file__)
+        # nvidia is a namespace package (no __file__), so walk __path__ instead.
         # Typical layout: site-packages/nvidia/<component>/lib
-        for entry in os.listdir(nvidia_root):
-            lib_dir = os.path.join(nvidia_root, entry, "lib")
-            if os.path.isdir(lib_dir):
-                yield lib_dir
+        for nvidia_root in list(nvidia.__path__):
+            for entry in os.listdir(nvidia_root):
+                lib_dir = os.path.join(nvidia_root, entry, "lib")
+                if os.path.isdir(lib_dir):
+                    yield lib_dir
     except Exception:
         return
 
@@ -88,7 +89,7 @@ def _configure_cuda_runtime() -> None:
     try:
         import nvidia.cudnn  # type: ignore
 
-        cudnn_root = os.path.dirname(nvidia.cudnn.__file__)
+        cudnn_root = list(nvidia.cudnn.__path__)[0]
         cudnn_lib_dir = os.path.join(cudnn_root, "lib")
         if os.path.isdir(cudnn_lib_dir):
             # Load the major-versioned shared libs first for best compatibility.
@@ -100,6 +101,21 @@ def _configure_cuda_runtime() -> None:
                 candidate = os.path.join(cudnn_lib_dir, fname)
                 try:
                     ctypes.CDLL(candidate, mode=ctypes.RTLD_GLOBAL)
+                except Exception:
+                    continue
+    except Exception:
+        pass
+
+    # CTranslate2 dlopens libcublas.so.12 by name; LD_LIBRARY_PATH edits made after
+    # process start are ignored by the loader, so preload it by absolute path too.
+    try:
+        import nvidia.cublas  # type: ignore
+
+        cublas_lib_dir = os.path.join(list(nvidia.cublas.__path__)[0], "lib")
+        for fname in sorted(os.listdir(cublas_lib_dir)):
+            if fname.startswith("libcublas") and fname.endswith(".so.12"):
+                try:
+                    ctypes.CDLL(os.path.join(cublas_lib_dir, fname), mode=ctypes.RTLD_GLOBAL)
                 except Exception:
                     continue
     except Exception:
@@ -131,7 +147,7 @@ class AudioTranscriber:
             print(f"❌ Error loading model: {e}")
             raise
 
-    def transcribe(self, audio_path):
+    def transcribe(self, audio_path, language=None, beam_size=5):
         """
         Transcribes audio and extracts word-level timestamps.
         
@@ -147,7 +163,8 @@ class AudioTranscriber:
         segments, info = self.model.transcribe(
             str(audio_path), 
             word_timestamps=True,
-            beam_size=5
+            beam_size=beam_size,
+            language=language or None,  # None = auto-detect
         )
 
         # Process generator into a list
@@ -193,34 +210,48 @@ class AudioTranscriber:
         print(f"💾 Transcript saved to: {output_path}")
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workspace", default="pipeline_data")
+    parser.add_argument("--model", default="large-v3", help="tiny | base | small | medium | large-v3")
+    parser.add_argument("--language", default=None, help="Language code (e.g. hi, en); omit to auto-detect")
+    parser.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"])
+    parser.add_argument("--beam-size", type=int, default=5)
+    args = parser.parse_args()
+
     # 1. Setup paths (Matching the folder structure from Step 1)
-    # Assuming you ran video_ingestion.py and have data in 'pipeline_data'
-    WORKSPACE_DIR = Path("pipeline_data")
+    WORKSPACE_DIR = Path(args.workspace)
     AUDIO_FILE = WORKSPACE_DIR / "audio" / "audio.wav"
     OUTPUT_FILE = WORKSPACE_DIR / "transcription.json"
-    
+
     if not AUDIO_FILE.exists():
         print(f"❌ Audio file not found at {AUDIO_FILE}")
         print("   Did you run video_ingestion.py first?")
+        sys.exit(1)
+
+    # 2. Initialize Transcriber
+    # NOTE: CUDA transcription requires a working CUDA + cuDNN runtime.
+    # If cuDNN is missing/misconfigured, the backend can abort the process.
+    if args.device == "cpu":
+        use_cuda = False
     else:
-        # 2. Initialize Transcriber
-        # NOTE: CUDA transcription requires a working CUDA + cuDNN runtime.
-        # If cuDNN is missing/misconfigured, the backend can abort the process.
         _configure_cuda_runtime()
         use_cuda = _cudnn_available()
-        device = "cuda" if use_cuda else "cpu"
-        compute_type = "float16" if use_cuda else "int8"
+        if args.device == "cuda" and not use_cuda:
+            print("⚠️  CUDA requested but cuDNN was not found; falling back to CPU.")
+    device = "cuda" if use_cuda else "cpu"
+    compute_type = "float16" if use_cuda else "int8"
 
-        if use_cuda:
-            print("⚡ Using CUDA (cuDNN detected).")
-        else:
-            print("⚠️  cuDNN not detected; falling back to CPU to avoid a crash.")
-            print("   To enable GPU, install a compatible cuDNN (e.g., libcudnn_ops.so.9*) and ensure it's on LD_LIBRARY_PATH.")
+    if use_cuda:
+        print("⚡ Using CUDA (cuDNN detected).")
+    else:
+        print("⚠️  Using CPU. For GPU, install a compatible cuDNN (e.g., libcudnn_ops.so.9*) and put it on LD_LIBRARY_PATH.")
 
-        transcriber = AudioTranscriber(model_size="large-v3", device=device, compute_type=compute_type)
+    transcriber = AudioTranscriber(model_size=args.model, device=device, compute_type=compute_type)
 
-        # 3. Run Transcription
-        transcript_data = transcriber.transcribe(AUDIO_FILE)
-        
-        # 4. Save
-        transcriber.save_to_json(transcript_data, OUTPUT_FILE)
+    # 3. Run Transcription
+    transcript_data = transcriber.transcribe(AUDIO_FILE, language=args.language, beam_size=args.beam_size)
+
+    # 4. Save
+    transcriber.save_to_json(transcript_data, OUTPUT_FILE)

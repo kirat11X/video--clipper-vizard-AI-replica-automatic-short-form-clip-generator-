@@ -1,5 +1,5 @@
 # Core
-numpy>=1.24
+numpy>=1.24,<2.3
 scipy>=1.10
 tqdm>=4.66
 
@@ -18,27 +18,17 @@ sentence-transformers>=2.2.2
 scikit-learn>=1.3.0
 
 # Vision
-opencv-python>=4.9.0
-mediapipe>=0.10.9
+opencv-python>=4.9.0,<4.12
+mediapipe>=0.10.9,<0.10.22
 
 # Utilities
 python-dateutil>=2.8
 
+# Hook-LLM (device_map loading)
+accelerate>=0.30
+transformers>=4.40
 
-⚠️ IMPORTANT INSTALL NOTES 
-FFmpeg (required, system-level)
-sudo apt install ffmpeg
-
-
-or on Fedora:
-
-sudo dnf install ffmpeg
-
-GPU Support (Optional, Recommended)
-
-For NVIDIA GPUs:
-
-pip install torch --index-url https://download.pytorch.org/whl/cu121
-
-
-If not using GPU, CPU torch works fine.
+# Web UI (app.py). pyarrow >=22 needs numpy 2, which mediapipe/opencv above don't support yet.
+streamlit>=1.50
+pandas>=2.0
+pyarrow>=14,<22

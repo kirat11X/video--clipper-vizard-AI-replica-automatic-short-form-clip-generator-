@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -23,7 +24,32 @@ class VideoIngestor:
             
         print(f"📁 Workspace initialized at: {self.base_dir.absolute()}")
 
-    def download_video(self, url):
+    def import_local(self, file_path):
+        """Uses a video file already on disk instead of downloading one."""
+        src = Path(file_path).expanduser().resolve()
+        if not src.exists():
+            raise RuntimeError(f"Video file not found: {src}")
+
+        dest = self.video_dir / f"input_video{src.suffix.lower()}"
+        # Drop any previous input so the renderer never picks up a stale video.
+        for old in self.video_dir.glob("input_video.*"):
+            if old.resolve() != src:
+                old.unlink()
+        if src != dest.resolve():
+            shutil.copy2(src, dest)
+
+        info = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(dest)],
+            capture_output=True, text=True,
+        )
+        try:
+            duration = float(info.stdout.strip())
+        except ValueError:
+            duration = None
+        print(f"✅ Using local video: {dest}")
+        return {"video_path": dest, "duration": duration, "title": src.stem}
+
+    def download_video(self, url, max_height=None):
         """
         Downloads video from YouTube/Twitch using yt-dlp.
         Returns a dictionary containing path, duration, and title.
@@ -33,8 +59,16 @@ class VideoIngestor:
         # Output template to force specific filename structure
         output_template = str(self.video_dir / "input_video.%(ext)s")
         
+        cap = f"[height<={int(max_height)}]" if max_height else ""
+        # Prefer H.264 (cheap to decode) when a height cap is set, then any mp4.
+        video_fmt = (
+            f"bestvideo{cap}[vcodec^=avc1][ext=mp4]+bestaudio[ext=m4a]/"
+            f"bestvideo{cap}[ext=mp4]+bestaudio[ext=m4a]/best{cap}[ext=mp4]/best{cap}/best"
+            if max_height else
+            'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
+        )
         ydl_opts = {
-            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+            'format': video_fmt,
             'outtmpl': output_template,
             'quiet': True,
             'no_warnings': True,
@@ -127,13 +161,16 @@ class VideoIngestor:
             # CRITICAL FIX: Raise exception instead of sys.exit(1)
             raise RuntimeError(f"Frame extraction failed: {e}")
 
-    def run(self, url):
-        """Orchestrates the full ingestion process."""
+    def run(self, url=None, file=None, max_height=None):
+        """Orchestrates the full ingestion process (URL download or local file)."""
         print("🚀 Starting Video Ingestion Pipeline...")
         
-        # 1. Download
+        # 1. Download (or import a local file)
         # Returns a dict with path and metadata
-        download_result = self.download_video(url)
+        if file:
+            download_result = self.import_local(file)
+        else:
+            download_result = self.download_video(url, max_height=max_height)
         video_path = download_result["video_path"]
         duration = download_result["duration"]
         title = download_result["title"]
@@ -159,13 +196,21 @@ class VideoIngestor:
         }
 
 if __name__ == "__main__":
-    # Example Usage
-    # You can change this URL to any YouTube video for testing
-    TEST_URL = "https://www.youtube.com/watch?v=UZzQpP5JHuc&pp=ygUHc3RhbmR1cA%3D%3D" 
-    
+    import argparse
+
+    # Default URL is a sample video for testing; pass --url to use your own.
+    TEST_URL = "https://www.youtube.com/watch?v=UZzQpP5JHuc&pp=ygUHc3RhbmR1cA%3D%3D"
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--url", default=TEST_URL, help="Video URL")
+    parser.add_argument("--file", default=None, help="Local video file (skips the download)")
+    parser.add_argument("--max-height", type=int, default=None, help="Cap download resolution, e.g. 1080")
+    parser.add_argument("--workspace", default="pipeline_data")
+    args = parser.parse_args()
+
     try:
-        ingestor = VideoIngestor(output_dir="pipeline_data")
-        result = ingestor.run(TEST_URL)
+        ingestor = VideoIngestor(output_dir=args.workspace)
+        result = ingestor.run(args.url, file=args.file, max_height=args.max_height)
         print("\nPipeline Result:", result)
     except Exception as e:
         print(f"\n💥 Pipeline failed: {e}")

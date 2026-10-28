@@ -99,6 +99,21 @@ Upload-Ready Shorts
 
 ---
 
+## 🖥️ Clipper Studio (web UI)
+
+```bash
+streamlit run app.py        # http://localhost:8501
+```
+
+A local Streamlit app over the whole pipeline - upload a file or paste a URL, then:
+
+1. **Source & Analyze** - pick the Whisper model / language, toggle the hook LLM, cap the download quality, and run the analysis as a background job with live progress and a cancel button. Finished steps are skipped, so tweaking and re-running is cheap.
+2. **Signals & Transcript** - interactive timeline of audio/face/motion signals with your picks overlaid, plus a searchable transcript.
+3. **Score & Clips** - choose a genre preset, edit every signal weight (and save your own presets), pick a platform, set minimum score / clip length / spacing / overlap / max clips, and see *why* each moment scored the way it did. Trim, rename, add or drop clips in the final list.
+4. **Render & Export** - output size (9:16, 4:5, 1:1), crop-to-fill or blurred-background framing with a crop-focus slider, caption font / size / colour / position, padding, loudness, encoder; quick preview of any clip, then render and download (single files or a zip).
+
+Each project lives in its own folder under `projects/`; the original `pipeline_data/` run shows up as an existing project. Docker: `docker compose up --build ui` (add `-f docker-compose.gpu.yml` for an NVIDIA GPU).
+
 ## ⚙️ Project Structure
 
 ```text

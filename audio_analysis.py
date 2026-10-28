@@ -133,26 +133,35 @@ class AudioAnalyzer:
         print(f"💾 Audio analysis saved to: {output_path}")
 
 if __name__ == "__main__":
+    import argparse
+    import sys
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workspace", default="pipeline_data")
+    parser.add_argument("--window", type=float, default=0.5, help="Analysis chunk size in seconds")
+    parser.add_argument("--vol-weight", type=float, default=0.6, help="Weight of loudness in the excitement score")
+    parser.add_argument("--pitch-weight", type=float, default=0.4, help="Weight of pitch variation in the excitement score")
+    args = parser.parse_args()
+
     # Setup paths
-    WORKSPACE_DIR = Path("pipeline_data")
+    WORKSPACE_DIR = Path(args.workspace)
     AUDIO_FILE = WORKSPACE_DIR / "audio" / "audio.wav"
     OUTPUT_FILE = WORKSPACE_DIR / "audio_analysis.json"
-    
+
     if not AUDIO_FILE.exists():
         print("❌ Audio file not found. Run previous steps first.")
-    else:
-        analyzer = AudioAnalyzer()
-        # Analyze in 0.5 second chunks for granularity
-        # Weights can now be tuned here if needed (e.g., vol_weight=0.7 for podcasts)
-        analysis_data = analyzer.analyze_excitement(
-            AUDIO_FILE, 
-            window_size=0.5,
-            vol_weight=0.6,
-            pitch_weight=0.4
-        )
-        
-        # Optional: Run the new spike detection to test it
-        spikes = analyzer.detect_audio_spikes(analysis_data)
-        print(f"⚡ Detected {len(spikes)} emotional spikes.")
-        
-        analyzer.save_to_json(analysis_data, OUTPUT_FILE)
+        sys.exit(1)
+
+    analyzer = AudioAnalyzer()
+    analysis_data = analyzer.analyze_excitement(
+        AUDIO_FILE,
+        window_size=args.window,
+        vol_weight=args.vol_weight,
+        pitch_weight=args.pitch_weight
+    )
+
+    # Optional: Run the new spike detection to test it
+    spikes = analyzer.detect_audio_spikes(analysis_data)
+    print(f"⚡ Detected {len(spikes)} emotional spikes.")
+
+    analyzer.save_to_json(analysis_data, OUTPUT_FILE)

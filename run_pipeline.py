@@ -218,7 +218,7 @@ class PipelineOrchestrator:
         print(f"🎬 STARTING PIPELINE | Platform: {self.platform} | Mode: {self.genre} | Dir: {self.workspace_dir}")
         
         # 1. Ingest
-        self.run_step("video_ingestion.py") 
+        self.run_step("video_ingestion.py", ["--url", video_url] if video_url else [])
         
         # 2. Transcribe
         self.run_step("audio_transcription.py")

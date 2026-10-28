@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Pipeline workspace (downloaded video, frames, rendered clips)
+pipeline_data/
+.venv/
+
+# Clipper Studio
+projects/
+user_presets.json

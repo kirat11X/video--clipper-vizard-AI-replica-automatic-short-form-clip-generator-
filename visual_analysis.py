@@ -97,5 +97,9 @@ class VisualAnalyzer:
         print(f"\n✅ Visual analysis saved.")
 
 if __name__ == "__main__":
-    analyzer = VisualAnalyzer()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workspace", default="pipeline_data")
+    args = parser.parse_args()
+
+    analyzer = VisualAnalyzer(args.workspace)
     analyzer.analyze()

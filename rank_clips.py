@@ -92,9 +92,15 @@ def read_windows(csv_path, signal_order):
         return []
     return windows
 
+def get_profile(platform):
+    """Accepts a platform name or a ready-made profile dict (used by the UI)."""
+    if isinstance(platform, dict):
+        return platform
+    return PLATFORM_PROFILES.get(platform, PLATFORM_PROFILES["shorts"])
+
 def filter_by_constraints(windows, platform):
     """Filters windows based on Platform Clip Length Constraints."""
-    profile = PLATFORM_PROFILES.get(platform, PLATFORM_PROFILES["shorts"])
+    profile = get_profile(platform)
     constraints = profile["constraints"]
     
     valid_windows = []
@@ -113,7 +119,7 @@ def filter_by_constraints(windows, platform):
 
 def score_windows(windows, weights, platform):
     """Calculates the score with Platform Bias."""
-    profile = PLATFORM_PROFILES.get(platform, PLATFORM_PROFILES["shorts"])
+    profile = get_profile(platform)
     
     for w in windows:
         # 1. Base Genre Score
@@ -169,6 +175,7 @@ def main():
     parser.add_argument("--signals", required=True, help="Path to input CSV containing signal windows")
     parser.add_argument("--weights", default="weights.json", help="Path to weights configuration JSON")
     parser.add_argument("--genre", required=True, help="Target genre")
+    parser.add_argument("--workspace", default=None, help="Accepted for orchestrator compatibility (unused)")
     parser.add_argument("--platform", default="shorts", choices=["tiktok", "reels", "shorts"], help="Target platform")
     parser.add_argument("--out", default="ranked_clips.csv", help="Output path")
     

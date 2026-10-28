@@ -1,0 +1,5 @@
+# Optional, host (non-Docker) GPU transcription: faster-whisper/CTranslate2 needs the CUDA 12
+# runtime. If torch installs CUDA 13 libraries, install these as well:
+#   pip install -r requirements-gpu.txt
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
